@@ -1,3 +1,5 @@
 // component inline styling
 
-export const homeSx = {};
+export const homeSx = {
+  fontFamily: "forma-djr-display",
+};

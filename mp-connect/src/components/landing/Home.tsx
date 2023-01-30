@@ -1,3 +1,6 @@
+import React from "react";
+import { Box } from "@mui/material";
+
 export const Home = () => {
-  return <>Hello World</>;
+  return <Box>Hello World</Box>;
 };
