@@ -18,6 +18,22 @@ export const linkBarSx = {
   zIndex: "8",
 };
 
+export const linkBarContentSx = {
+  container: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-end",
+    mt: "-0.83vh",
+    mr: "7.3vw",
+  },
+  iconButton: {
+    color: palette.white,
+    "&:hover": {
+      opacity: "0.84",
+    },
+  },
+};
+
 export const navBarSx = {
   backgroundColor: palette.trueWhite,
   height: "13.9vh",
