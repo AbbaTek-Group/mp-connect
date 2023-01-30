@@ -3,6 +3,7 @@
 // 7.3vw for frame
 
 import { palette } from "./palette";
+import { font } from "./font";
 
 export const homeSx = {
   divContainer: {
@@ -25,7 +26,8 @@ export const linkBarContentSx = {
     display: "flex",
     flexDirection: "row",
     justifyContent: "flex-end",
-    mt: "-0.83vh",
+    alignItems: "center",
+    height: "100%",
     mr: "7.3vw",
   },
   iconButton: {
@@ -49,9 +51,28 @@ export const navBarContentSx = {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
+    alignItems: "center",
+    height: "100%",
   },
-  textButton: {
-    fontColor: palette.white,
+  loginButton: {
+    fontFamily: font.fontFamily,
+    fontWeight: font.fontWeight.medium,
+    backgroundColor: palette.parchment,
+    color: palette.black,
+    width: "7vw",
+    boxShadow: "none",
+    mr: "1.5vw",
+    "&:hover": {
+      opacity: "0.84",
+    },
+  },
+  registerButton: {
+    fontFamily: font.fontFamily,
+    fontWeight: font.fontWeight.bold,
+    backgroundColor: palette.mpBlue,
+    color: palette.white,
+    width: "13vw",
+    boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
     "&:hover": {
       opacity: "0.84",
     },

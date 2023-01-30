@@ -12,5 +12,13 @@ export const appTheme = createTheme({
       main: palette.black,
     },
   },
-  components: {},
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          textTransform: "none",
+        },
+      },
+    },
+  },
 });
