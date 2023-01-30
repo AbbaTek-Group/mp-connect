@@ -2,5 +2,5 @@ import { Box } from "@mui/material";
 import { inline } from "../../styles";
 
 export const TopDiv = () => {
-  return <Box sx={inline.topDivSx}>TopDiv</Box>;
+  return <Box sx={inline.topDivSx}></Box>;
 };

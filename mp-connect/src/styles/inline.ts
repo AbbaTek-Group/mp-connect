@@ -14,6 +14,8 @@ export const topDivSx = {
   backgroundColor: palette.parchment,
   width: "100vw",
   height: "100vh",
+  boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+  zIndex: "5",
 };
 
 export const secondDivSx = {
@@ -23,6 +25,8 @@ export const secondDivSx = {
   backgroundRepeat: "no-repeat",
   width: "100vw",
   height: "160vh",
+  boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+  zIndex: "4",
 };
 
 export const thirdDivSx = {
@@ -33,10 +37,12 @@ export const thirdDivSx = {
   backgroundRepeat: "no-repeat",
   width: "100vw",
   height: "200vh",
+  zIndex: "3",
 };
 
 export const bottomDivSx = {
   backgroundColor: palette.white,
   width: "100vw",
   height: "50vh",
+  zIndex: "2",
 };
