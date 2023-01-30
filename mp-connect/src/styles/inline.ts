@@ -1,22 +1,42 @@
 // component inline styling
 
 import { palette } from "./palette";
-// fontFamily: "forma-djr-display",
 
 export const homeSx = {
   divContainer: {
     display: "flex",
     flexDirection: "column",
     flexWrap: "nowrap",
-    justifyContent: "center",
-    alignItems: "center",
   },
 };
 
-export const topDivSx = {};
+export const topDivSx = {
+  backgroundColor: palette.parchment,
+  width: "100vw",
+  height: "100vh",
+};
 
-export const secondDivSx = {};
+export const secondDivSx = {
+  backgroundColor: palette.black,
+  backgroundImage: `linear-gradient(${palette.black}, ${palette.slate})`,
+  backgroundPositionY: "50vh",
+  backgroundRepeat: "no-repeat",
+  width: "100vw",
+  height: "160vh",
+};
 
-export const thirdDivSx = {};
+export const thirdDivSx = {
+  backgroundColor: palette.mpTeal,
+  backgroundImage: `linear-gradient(${palette.mpTeal}, ${palette.white})`,
+  backgroundSize: "100vw 60vh",
+  backgroundPositionY: "155vh",
+  backgroundRepeat: "no-repeat",
+  width: "100vw",
+  height: "200vh",
+};
 
-export const bottomDivSx = {};
+export const bottomDivSx = {
+  backgroundColor: palette.white,
+  width: "100vw",
+  height: "50vh",
+};
