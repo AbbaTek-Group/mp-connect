@@ -10,6 +10,14 @@ export const homeSx = {
   },
 };
 
+export const linkBarSx = {
+  backgroundColor: palette.black,
+  height: "5vh",
+  width: "100vw",
+  boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+  zIndex: "7",
+};
+
 export const topDivSx = {
   backgroundColor: palette.parchment,
   width: "100vw",
