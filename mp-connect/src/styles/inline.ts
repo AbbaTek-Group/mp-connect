@@ -18,7 +18,12 @@ export const linkBarSx = {
   zIndex: "7",
 };
 
-export const navBarSx = {};
+export const navBarSx = {
+  backgroundColor: palette.trueWhite,
+  height: "13.9vh",
+  boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+  zIndex: "7",
+};
 
 export const topDivSx = {
   backgroundColor: palette.parchment,

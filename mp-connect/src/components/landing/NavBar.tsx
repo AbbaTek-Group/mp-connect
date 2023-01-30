@@ -1,5 +1,10 @@
-// import { inline } from "../../styles";
+import { AppBar, Toolbar } from "@mui/material";
+import { inline } from "../../styles";
 
 export const NavBar = () => {
-  return <></>;
+  return (
+    <AppBar position="sticky" sx={inline.navBarSx}>
+      <Toolbar></Toolbar>
+    </AppBar>
+  );
 };
