@@ -1,4 +1,5 @@
 import { Box, useScrollTrigger, Slide } from "@mui/material";
+import { LinkBarContent } from "./content";
 import { inline } from "../../styles";
 import { NavScrollFxProps } from "../../types";
 
@@ -20,7 +21,9 @@ function HideOnScroll(props: NavScrollFxProps) {
 export const LinkBar = ({ props }: any) => {
   return (
     <HideOnScroll {...props}>
-      <Box sx={inline.linkBarSx}></Box>
+      <Box sx={inline.linkBarSx}>
+        <LinkBarContent />
+      </Box>
     </HideOnScroll>
   );
 };
