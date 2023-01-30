@@ -1,14 +1,10 @@
-import { Box } from "@mui/material";
-import useScrollTrigger from "@mui/material/useScrollTrigger";
-import Slide from "@mui/material/Slide";
+import { Box, useScrollTrigger, Slide } from "@mui/material";
 import { inline } from "../../styles";
+import { NavScrollFxProps } from "../../types";
 
-interface Props {
-  window?: () => Window;
-  children: React.ReactElement;
-}
+function HideOnScroll(props: NavScrollFxProps) {
+  // hides link bar upon scroll
 
-function HideOnScroll(props: Props) {
   const { children, window } = props;
   const trigger = useScrollTrigger({
     target: window ? window() : undefined,

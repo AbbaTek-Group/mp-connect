@@ -1,10 +1,30 @@
-import { AppBar, Toolbar } from "@mui/material";
+import { cloneElement } from "react";
+import { AppBar, Toolbar, useScrollTrigger } from "@mui/material";
 import { inline } from "../../styles";
+import { NavScrollFxProps } from "../../types";
 
-export const NavBar = () => {
+function ScrollFx(props: NavScrollFxProps) {
+  // sticks nav bar upon scroll
+
+  const { children, window } = props;
+  const trigger = useScrollTrigger({
+    disableHysteresis: true,
+    threshold: 30,
+    target: window ? window() : undefined,
+  });
+
+  return cloneElement(children, {
+    elevation: trigger ? 4 : 0,
+    position: trigger ? "fixed" : "sticky",
+  });
+}
+
+export const NavBar = ({ props }: any) => {
   return (
-    <AppBar position="sticky" sx={inline.navBarSx}>
-      <Toolbar></Toolbar>
-    </AppBar>
+    <ScrollFx {...props}>
+      <AppBar sx={inline.navBarSx}>
+        <Toolbar></Toolbar>
+      </AppBar>
+    </ScrollFx>
   );
 };
