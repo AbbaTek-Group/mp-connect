@@ -1,6 +1,6 @@
 // component inline styling
 
-// import { palette } from "./palette";
+import { palette } from "./palette";
 // fontFamily: "forma-djr-display",
 
 export const homeSx = {

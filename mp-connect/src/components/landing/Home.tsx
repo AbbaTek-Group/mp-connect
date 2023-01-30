@@ -1,14 +1,16 @@
-import { Box } from "@mui/material";
-import { inline } from "../../styles";
-import { BottomDiv, SecondDiv, ThirdDiv, TopDiv } from "./index";
+import { Box, ThemeProvider } from "@mui/material";
+import { appTheme, inline } from "../../styles";
+import { TopDiv, SecondDiv, ThirdDiv, BottomDiv } from "./index";
 
 export const Home = () => {
   return (
     <Box sx={inline.homeSx.divContainer}>
-      <TopDiv />
-      <SecondDiv />
-      <ThirdDiv />
-      <BottomDiv />
+      <ThemeProvider theme={appTheme}>
+        <TopDiv />
+        <SecondDiv />
+        <ThirdDiv />
+        <BottomDiv />
+      </ThemeProvider>
     </Box>
   );
 };
