@@ -28,8 +28,8 @@ export const secondDivSx = {
 export const thirdDivSx = {
   backgroundColor: palette.mpTeal,
   backgroundImage: `linear-gradient(${palette.mpTeal}, ${palette.white})`,
-  backgroundSize: "100vw 60vh",
-  backgroundPositionY: "155vh",
+  backgroundSize: "100vw 50vh",
+  backgroundPositionY: "150vh",
   backgroundRepeat: "no-repeat",
   width: "100vw",
   height: "200vh",
