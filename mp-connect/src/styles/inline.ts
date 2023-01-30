@@ -1,5 +1,7 @@
 // component inline styling
 
+// 7.3vw for frame
+
 import { palette } from "./palette";
 
 export const homeSx = {
@@ -37,8 +39,23 @@ export const linkBarContentSx = {
 export const navBarSx = {
   backgroundColor: palette.trueWhite,
   height: "13.9vh",
+  width: "100vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "7",
+};
+
+export const navBarContentSx = {
+  container: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  textButton: {
+    fontColor: palette.white,
+    "&:hover": {
+      opacity: "0.84",
+    },
+  },
 };
 
 export const topDivSx = {
