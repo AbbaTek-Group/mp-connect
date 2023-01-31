@@ -13,7 +13,7 @@ export const homeSx = {
 
 export const linkBarSx = {
   backgroundColor: palette.black,
-  height: "5vh",
+  height: "2.5vw",
   width: "100vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "8",
@@ -38,7 +38,7 @@ export const linkBarContentSx = {
 
 export const navBarSx = {
   backgroundColor: palette.trueWhite,
-  height: "13.9vh",
+  height: "6.6vw",
   width: "100vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "7",
@@ -57,7 +57,7 @@ export const navBarContentSx = {
   logo: {
     width: "13vw",
     height: "auto",
-    marginTop: "2vh",
+    marginTop: "0.7vw",
   },
   loginButton: {
     fontFamily: font.fontFamily,
@@ -95,7 +95,7 @@ export const navBarContentSx = {
 export const topDivSx = {
   backgroundColor: palette.parchment,
   width: "100vw",
-  height: "100vh",
+  height: "47.6vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "5",
   container: {
@@ -111,8 +111,8 @@ export const topDivSx = {
     position: "absolute",
     fontFamily: font.fontFamily,
     fontWeight: font.fontWeight.bold,
-    fontSize: "10.25vh",
-    mt: "22vh",
+    fontSize: "5vw",
+    mt: "10.5vw",
     mr: "32vw",
     zIndex: "7",
   },
@@ -140,7 +140,7 @@ export const topDivSx = {
     zIndex: "5",
     hexPattern: {
       width: "42.3vw",
-      height: "100vh",
+      height: "47.6vw",
       backgroundSize: "42.3vw",
       backgroundRepeat: "repeat-y",
       backgroundPosition: "0vw 0vw",
@@ -151,10 +151,10 @@ export const topDivSx = {
 export const secondDivSx = {
   backgroundColor: palette.black,
   backgroundImage: `linear-gradient(${palette.black}, ${palette.slate})`,
-  backgroundPositionY: "50vh",
+  backgroundPositionY: "22.5vw",
   backgroundRepeat: "no-repeat",
   width: "100vw",
-  height: "160vh",
+  height: "76.16vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "4",
   container: {
@@ -246,7 +246,7 @@ export const secondDivSx = {
       title: {
         fontFamily: font.fontFamily,
         fontWeight: font.fontWeight.bold,
-        fontSize: "1.67vw",
+        fontSize: "1.7vw",
         color: palette.mpTeal,
         mt: "3vw",
         textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
@@ -255,10 +255,10 @@ export const secondDivSx = {
         color: palette.parchment,
         fontFamily: font.fontFamily,
         fontWeight: font.fontWeight.medium,
-        fontSize: "1.5vw",
+        fontSize: "1.6vw",
         textAlign: "center",
         mt: "2vw",
-        marginX: "2vw",
+        marginX: "2.8vw",
       },
     },
   },
@@ -267,17 +267,17 @@ export const secondDivSx = {
 export const thirdDivSx = {
   backgroundColor: palette.mpTeal,
   backgroundImage: `linear-gradient(${palette.mpTeal}, ${palette.white})`,
-  backgroundSize: "100vw 50vh",
-  backgroundPositionY: "150vh",
+  backgroundSize: "100vw 50vw",
+  backgroundPositionY: "75vw",
   backgroundRepeat: "no-repeat",
   width: "100vw",
-  height: "200vh",
+  height: "100vw",
   zIndex: "3",
 };
 
 export const bottomDivSx = {
   backgroundColor: palette.white,
   width: "100vw",
-  height: "50vh",
+  height: "25vw",
   zIndex: "2",
 };
