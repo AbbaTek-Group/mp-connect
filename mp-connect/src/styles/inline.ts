@@ -157,6 +157,10 @@ export const secondDivSx = {
   height: "160vh",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "4",
+  container: {
+    ml: "7.3vw",
+    mr: "7.3vw",
+  },
 };
 
 export const thirdDivSx = {
