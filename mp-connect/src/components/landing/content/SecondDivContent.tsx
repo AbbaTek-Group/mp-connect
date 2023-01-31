@@ -1,5 +1,22 @@
 import { Box } from "@mui/material";
 
+const IconBox = () => {
+  return (
+    <Box
+      sx={{
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <Box>Icon</Box>
+      <Box sx={{ width: "95%", height: "65.6%", backgroundColor: "red" }}></Box>
+    </Box>
+  );
+};
+
 export const SecondDivContent = () => {
   return (
     <Box
@@ -48,17 +65,15 @@ export const SecondDivContent = () => {
         <Box
           sx={{
             display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            width: "32%",
-            height: "67vh",
+            flexDirection: "row",
+            justifyContent: "space-between",
+            width: "100%",
+            height: "auto",
           }}
         >
-          <Box>Icon</Box>
-          <Box
-            sx={{ width: "100%", height: "65.6%", backgroundColor: "black" }}
-          ></Box>
+          <IconBox />
+          <IconBox />
+          <IconBox />
         </Box>
       </Box>
     </Box>
