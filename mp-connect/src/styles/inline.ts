@@ -99,9 +99,23 @@ export const topDivSx = {
   container: {
     display: "flex",
     flexDirection: "row",
+    justifyContent: "flex-end",
     height: "100%",
     ml: "7.3vw",
     mr: "7.3vw",
+  },
+  imageBox: {
+    backgroundColor: "white",
+    width: "42.3vw",
+    height: "100%",
+    zIndex: "5",
+    hexPattern: {
+      width: "42.3vw",
+      height: "100vh",
+      backgroundSize: "42.3vw",
+      backgroundRepeat: "repeat-y",
+      backgroundPosition: "0vw 0vw",
+    },
   },
 };
 
