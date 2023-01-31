@@ -284,6 +284,19 @@ export const thirdDivSx = {
       mt: "5vw",
     },
   },
+  textCard: {
+    title: { backgroundColor: "red", zIndex: "3" },
+    subTitle: { width: "71vw", backgroundColor: "purple", zIndex: "4" },
+    body: {
+      fontFamily: font.fontFamily,
+      fontWeight: font.fontWeight.medium,
+      fontSize: "1.7vw",
+      color: palette.black,
+      width: "58.3vw",
+      backgroundColor: "pink",
+      zIndex: "5",
+    },
+  },
 };
 
 export const bottomDivSx = {
