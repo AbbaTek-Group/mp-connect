@@ -1,17 +1,6 @@
 import { Box } from "@mui/material";
-import TaskAltIcon from "@mui/icons-material/TaskAlt";
+import { IconBox } from "./IconBox";
 import { inline } from "../../../styles";
-
-const IconBox = () => {
-  return (
-    <Box sx={inline.secondDivSx.iconBox.container}>
-      <Box>
-        <TaskAltIcon sx={inline.secondDivSx.iconBox.icon} />
-      </Box>
-      <Box sx={inline.secondDivSx.iconBox.textBox}></Box>
-    </Box>
-  );
-};
 
 export const SecondDivContent = () => {
   return (
@@ -22,9 +11,9 @@ export const SecondDivContent = () => {
       </Box>
       <Box sx={inline.secondDivSx.iconBoxDiv}>
         <Box sx={inline.secondDivSx.iconBoxDiv.rowFlexbox}>
-          <IconBox />
-          <IconBox />
-          <IconBox />
+          <IconBox id={"check"} />
+          <IconBox id={"hourglass"} />
+          <IconBox id={"group"} />
         </Box>
       </Box>
     </Box>
