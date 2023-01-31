@@ -49,8 +49,15 @@ export const navBarContentSx = {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "center",
     height: "100%",
+    alignItems: "center",
+    ml: "7.3vw",
+    mr: "7.3vw",
+  },
+  logo: {
+    width: "13vw",
+    height: "auto",
+    marginTop: "2vh",
   },
   loginButton: {
     fontFamily: font.fontFamily,
@@ -62,7 +69,9 @@ export const navBarContentSx = {
     boxShadow: "none",
     mr: "1.5vw",
     "&:hover": {
-      opacity: "0.84",
+      backgroundColor: palette.trueWhite,
+      textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+      boxShadow: "none",
     },
   },
   registerButton: {
@@ -74,7 +83,9 @@ export const navBarContentSx = {
     width: "13vw",
     boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
     "&:hover": {
-      opacity: "0.84",
+      backgroundColor: palette.slate,
+      textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+      boxShadow: "none",
     },
   },
 };

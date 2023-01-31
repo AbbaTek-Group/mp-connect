@@ -4,8 +4,14 @@ import { inline } from "../../../styles";
 export const NavBarContent = () => {
   return (
     <Box sx={inline.navBarContentSx.container}>
-      <Box sx={{ ml: "7.3vw" }}>Icon</Box>
-      <Box sx={{ mr: "7.3vw" }}>
+      <Box>
+        <img
+          src={"/mpconnectlogo.svg"}
+          alt={"MPConnect"}
+          style={inline.navBarContentSx.logo}
+        />
+      </Box>
+      <Box>
         <Button
           sx={inline.navBarContentSx.loginButton}
           variant="contained"
