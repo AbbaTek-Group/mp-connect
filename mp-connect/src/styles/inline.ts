@@ -273,6 +273,17 @@ export const thirdDivSx = {
   width: "100vw",
   height: "100vw",
   zIndex: "3",
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    height: "100%",
+    ml: "7.3vw",
+    mr: "7.3vw",
+    textCardContainer: {
+      mt: "5vw",
+    },
+  },
 };
 
 export const bottomDivSx = {
