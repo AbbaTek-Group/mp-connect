@@ -5,10 +5,19 @@ import { TextCard } from "./TextCard";
 
 export const ThirdDivContent = () => {
   return (
-    <Box>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        height: "100%",
+        ml: "7.3vw",
+        mr: "7.3vw",
+      }}
+    >
       <Box>
-        <TextCard />
-        <TextCard />
+        <TextCard id={"academics"} />
+        <TextCard id={"labs"} />
       </Box>
       <Box>
         <Box>Streamline your microplastics analysis.</Box>
