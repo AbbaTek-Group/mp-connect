@@ -181,7 +181,6 @@ export const secondDivSx = {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
-    backgroundColor: "pink",
     height: "67.7vh",
     width: "100%",
     rowFlexbox: {
@@ -200,8 +199,37 @@ export const secondDivSx = {
       justifyContent: "center",
       alignItems: "center",
     },
-    icon: { color: "white", fontSize: "7.5vw" },
-    textBox: { width: "95%", height: "65.6%", backgroundColor: "red" },
+    icon: {
+      color: "white",
+      fontSize: "7.5vw",
+      mb: "2vw",
+    },
+    textBox: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      width: "95%",
+      height: "65.6%",
+      backgroundColor: palette.black,
+      boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+      title: {
+        fontFamily: font.fontFamily,
+        fontWeight: font.fontWeight.bold,
+        fontSize: "1.67vw",
+        color: palette.mpTeal,
+        mt: "3vw",
+        textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+      },
+      body: {
+        color: palette.parchment,
+        fontFamily: font.fontFamily,
+        fontWeight: font.fontWeight.medium,
+        fontSize: "1.5vw",
+        textAlign: "center",
+        mt: "2vw",
+        marginX: "2vw",
+      },
+    },
   },
 };
 

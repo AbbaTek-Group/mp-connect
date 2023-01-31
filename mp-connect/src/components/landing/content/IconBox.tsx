@@ -20,11 +20,20 @@ export const IconBox = ({ id }: IconBoxProps) => {
         )}
       </Box>
       <Box sx={inline.secondDivSx.iconBox.textBox}>
-        {id === "check"
-          ? "checkdasdasd"
-          : id === "hourglass"
-          ? "hourglasszzzz"
-          : "groupygroupy"}
+        <Box sx={inline.secondDivSx.iconBox.textBox.title}>
+          {id === "check"
+            ? "Easy To Use"
+            : id === "hourglass"
+            ? "Save Time & Money"
+            : "Seamless Collaboration"}
+        </Box>
+        <Box sx={inline.secondDivSx.iconBox.textBox.body}>
+          {id === "check"
+            ? "We understand the complexities of microplastic analysis so you don't have to."
+            : id === "hourglass"
+            ? "Particle analysis no longer requires backbreaking hours under a microscope with our automated workflows and A.I. algorithms. "
+            : "Get rid of messy spreadsheets and file sharing. Our solution integrates into your existing workflows. "}
+        </Box>
       </Box>
     </Box>
   );
