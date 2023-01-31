@@ -1,7 +1,5 @@
 // component inline styling
 
-// 7.3vw for frame
-
 import { palette } from "./palette";
 import { font } from "./font";
 
