@@ -174,7 +174,15 @@ export const secondDivSx = {
     width: "81vw",
     mt: "12vw",
     mb: "10vw",
-    imageBox: { backgroundColor: "purple", height: "90%", width: "23%" },
+    imageBox: {
+      mt: "1.5vw",
+      backgroundPosition: "0vw -0.5vw",
+      backgroundSize: "100%",
+      backgroundRepeat: "no-repeat",
+      opacity: "0.4",
+      height: "17.6vw",
+      width: "23%",
+    },
     textBox: {
       height: "90%",
       width: "75.15%",
@@ -183,6 +191,7 @@ export const secondDivSx = {
         fontWeight: font.fontWeight.bold,
         fontSize: "3.8vw",
         color: palette.parchment,
+        textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
         "b, strong": {
           color: palette.mpTeal,
         },
@@ -190,9 +199,9 @@ export const secondDivSx = {
       body: {
         fontFamily: font.fontFamily,
         fontWeight: font.fontWeight.medium,
-        fontSize: "1.8vw",
+        fontSize: "1.9vw",
         color: palette.parchment,
-        mr: "3vw",
+        mr: "9vw",
         "b, strong": {
           color: palette.mpTeal,
         },

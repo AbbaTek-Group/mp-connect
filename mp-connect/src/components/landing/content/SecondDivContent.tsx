@@ -1,12 +1,18 @@
 import { Box } from "@mui/material";
 import { IconBox } from "./IconBox";
 import { inline } from "../../../styles";
+import globe from "./img/globe.png";
 
 export const SecondDivContent = () => {
   return (
     <Box sx={inline.secondDivSx.container}>
       <Box sx={inline.secondDivSx.globeDiv}>
-        <Box sx={inline.secondDivSx.globeDiv.imageBox}></Box>
+        <Box
+          sx={{
+            ...inline.secondDivSx.globeDiv.imageBox,
+            backgroundImage: `url(${globe})`,
+          }}
+        ></Box>
         <Box sx={inline.secondDivSx.globeDiv.textBox}>
           <Box sx={inline.secondDivSx.globeDiv.textBox.title}>
             A global <b>solution</b> to a global problem.
