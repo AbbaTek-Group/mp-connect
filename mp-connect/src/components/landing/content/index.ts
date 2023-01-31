@@ -4,3 +4,4 @@ export { TopDivContent } from "./TopDivContent";
 export { SecondDivContent } from "./SecondDivContent";
 export { IconBox } from "./IconBox";
 export { ThirdDivContent } from "./ThirdDivContent";
+export { TextCard } from "./TextCard";
