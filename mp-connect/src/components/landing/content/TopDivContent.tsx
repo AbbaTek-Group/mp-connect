@@ -5,7 +5,11 @@ import hexPattern from "./img/hexpattern.png";
 export const TopDivContent = () => {
   return (
     <Box sx={inline.topDivSx.container}>
-      <Box></Box>
+      <Box sx={inline.topDivSx.textBox}>
+        <Box>Cost Effective,</Box>
+        <Box>Reliable</Box>
+        <Box>Microplastics Analysis.</Box>
+      </Box>
       <Box sx={inline.topDivSx.imageBox}>
         <Box
           sx={{
