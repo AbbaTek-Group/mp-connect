@@ -96,6 +96,13 @@ export const topDivSx = {
   height: "100vh",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "5",
+  container: {
+    display: "flex",
+    flexDirection: "row",
+    height: "100%",
+    ml: "7.3vw",
+    mr: "7.3vw",
+  },
 };
 
 export const secondDivSx = {
