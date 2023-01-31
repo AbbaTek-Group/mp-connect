@@ -17,6 +17,8 @@ export const appTheme = createTheme({
       styleOverrides: {
         root: {
           textTransform: "none",
+          letterSpacing: "0",
+          padding: "0",
         },
       },
     },
