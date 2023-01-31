@@ -111,9 +111,9 @@ export const topDivSx = {
     position: "absolute",
     fontFamily: font.fontFamily,
     fontWeight: font.fontWeight.bold,
-    fontSize: "4.5vw",
-    mt: "22.5vh",
-    mr: "33.5vw",
+    fontSize: "10.25vh",
+    mt: "22vh",
+    mr: "32vw",
     zIndex: "7",
   },
   button: {

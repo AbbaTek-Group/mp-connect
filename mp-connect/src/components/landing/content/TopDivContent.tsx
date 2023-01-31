@@ -6,8 +6,8 @@ export const TopDivContent = () => {
   return (
     <Box sx={inline.topDivSx.container}>
       <Box sx={inline.topDivSx.textBox}>
-        <Box>Cost Effective,</Box>
-        <Box>Reliable</Box>
+        <Box sx={{ marginBottom: "-2.5vh" }}>Cost Effective,</Box>
+        <Box sx={{ marginBottom: "-2.5vh" }}>Reliable</Box>
         <Box>Microplastics Analysis.</Box>
         <Button
           sx={inline.topDivSx.button}
