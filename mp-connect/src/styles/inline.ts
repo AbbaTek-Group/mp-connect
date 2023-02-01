@@ -395,4 +395,12 @@ export const footerDivSx = {
     ml: "7.3vw",
     mr: "7.3vw",
   },
+  directory: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "flex-end",
+  },
+  title: {},
+  text: {},
+  footer: {},
 };
