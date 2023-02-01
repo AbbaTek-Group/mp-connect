@@ -1,6 +1,6 @@
 import { Box, Button } from "@mui/material";
-import BubbleChartIcon from "@mui/icons-material/BubbleChart";
-import BiotechIcon from "@mui/icons-material/Biotech";
+import SchoolIcon from "@mui/icons-material/School";
+import AnalyticsIcon from "@mui/icons-material/Analytics";
 import { TextCard } from "./TextCard";
 // import micro from "./img/micro.png";
 import { inline } from "../../../styles";
@@ -8,8 +8,8 @@ import { inline } from "../../../styles";
 export const ThirdDivContent = () => {
   return (
     <Box sx={inline.thirdDivSx.container}>
-      <BubbleChartIcon sx={inline.thirdDivSx.topIcon} />
-      <BiotechIcon sx={inline.thirdDivSx.bottomIcon} />
+      <SchoolIcon sx={inline.thirdDivSx.topIcon} />
+      <AnalyticsIcon sx={inline.thirdDivSx.bottomIcon} />
       <Box>
         <TextCard id={"top"} />
         <TextCard id={"bottom"} />

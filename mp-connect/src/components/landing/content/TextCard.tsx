@@ -34,13 +34,13 @@ export const TextCard = ({ id }: TextCardProps) => {
           Physical characterization of microplastics isn't easy -
           <b> we get that. </b>
           <br />
-          Our standalone web application can help you process, analyze
-          <br /> and share your microplastics data without worrying about the
-          <br /> nuances of microplastics characterization or massive upfront
-          <br /> investments. Rest assured that your research is aligned with
-          <br /> best practices for microplastics analysis. Even better, pay
-          <br /> only for what your project requires! It's as easy as signing
-          <br /> up and uploading your raw image files.
+          Our standalone web application can help you process, analyze and share
+          <br /> your microplastics data without worrying about the nuances
+          <br /> of microplastics characterization or massive upfront
+          <br /> investments. Rest assured that your research is
+          <br /> aligned with best practices for microplastics analysis.
+          <br /> Even better, pay only for what your project requires!
+          <br /> It's as easy as signing up and uploading your raw image files.
         </>
       );
     } else {

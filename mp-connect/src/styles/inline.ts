@@ -290,18 +290,19 @@ export const thirdDivSx = {
   topIcon: {
     position: "absolute",
     ml: "49vw",
-    mt: "20vw",
-    transform: "rotate(-15deg)",
-    color: palette.slate,
-    fontSize: "20vw",
+    mt: "18.25vw",
+    transform: "rotate(1deg)",
+    color: palette.grey,
+    fontSize: "15.5vw",
+    filter: "drop-shadow(0px 0px 16px rgb(0 0 0 / 0.04))",
   },
   bottomIcon: {
     position: "absolute",
-    ml: "58vw",
+    ml: "64vw",
     mt: "54vw",
-    transform: "rotate(1.5deg)",
-    color: palette.slate,
-    fontSize: "21vw",
+    color: palette.grey,
+    fontSize: "15.5vw",
+    filter: "drop-shadow(0px 0px 16px rgb(0 0 0 / 0.04))",
   },
   textCard: {
     title: {
