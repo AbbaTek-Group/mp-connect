@@ -6,10 +6,10 @@ export const FooterDivContent = () => {
     {
       heading: "Company",
       subHeading: [
-        { title: "About", url: "" },
-        { title: "Team", url: "" },
-        { title: "Contact Us", url: "" },
-        { title: "News", url: "" },
+        { title: "About", url: "https://abbatekgroup.com/about-us/" },
+        { title: "Team", url: "https://abbatekgroup.com/our-team/" },
+        { title: "Contact Us", url: "https://forms.gle/3whbd5ZFJmFqdYNR9" },
+        { title: "News", url: "https://abbatekgroup.com/" },
       ],
     },
     {
@@ -27,10 +27,14 @@ export const FooterDivContent = () => {
       <Box sx={inline.footerDivSx.directory}>
         {directory.map((index: any) => {
           return (
-            <Box key={index.title}>
+            <Box sx={{ mx: "2vw" }} key={index.heading}>
               <Box sx={inline.footerDivSx.title}>{index.heading}</Box>
               {index.subHeading.map((subIndex: any) => {
-                return <Box sx={inline.footerDivSx.text}>{subIndex.title}</Box>;
+                return (
+                  <Box sx={inline.footerDivSx.text} key={subIndex.title}>
+                    <a href={subIndex.url}>{subIndex.title}</a>
+                  </Box>
+                );
               })}
             </Box>
           );
