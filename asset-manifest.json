@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mp-connect/static/css/main.f9196ca7.css",
-    "main.js": "/mp-connect/static/js/main.fd82f6a4.js",
+    "main.js": "/mp-connect/static/js/main.70e592af.js",
     "static/media/hexpattern.png": "/mp-connect/static/media/hexpattern.2a68744225deb732f9fd.png",
     "static/media/globe.png": "/mp-connect/static/media/globe.d61522b514c9c9f4436f.png",
     "index.html": "/mp-connect/index.html",
     "main.f9196ca7.css.map": "/mp-connect/static/css/main.f9196ca7.css.map",
-    "main.fd82f6a4.js.map": "/mp-connect/static/js/main.fd82f6a4.js.map"
+    "main.70e592af.js.map": "/mp-connect/static/js/main.70e592af.js.map"
   },
   "entrypoints": [
     "static/css/main.f9196ca7.css",
-    "static/js/main.fd82f6a4.js"
+    "static/js/main.70e592af.js"
   ]
 }
