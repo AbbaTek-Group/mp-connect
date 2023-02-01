@@ -287,6 +287,22 @@ export const thirdDivSx = {
       mb: "2vw",
     },
   },
+  topIcon: {
+    position: "absolute",
+    ml: "49vw",
+    mt: "20vw",
+    transform: "rotate(-15deg)",
+    color: palette.slate,
+    fontSize: "20vw",
+  },
+  bottomIcon: {
+    position: "absolute",
+    ml: "58vw",
+    mt: "54vw",
+    transform: "rotate(1.5deg)",
+    color: palette.slate,
+    fontSize: "21vw",
+  },
   textCard: {
     title: {
       backgroundColor: palette.white,
