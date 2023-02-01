@@ -29,9 +29,14 @@ export const linkBarContentSx = {
     mr: "7.3vw",
   },
   iconButton: {
-    color: palette.white,
-    "&:hover": {
-      opacity: "0.84",
+    a: { color: palette.white },
+    icon: {
+      mt: "0.35vw",
+      fontSize: "1.8vw",
+      transition: "none",
+      "&:hover": {
+        opacity: "0.84",
+      },
     },
   },
 };
@@ -397,7 +402,7 @@ export const thirdDivSx = {
 
 export const footerDivSx = {
   backgroundColor: palette.white,
-  height: "25vw",
+  height: "27vw",
   zIndex: "2",
   break: { backgroundColor: palette.grey, height: "1px", width: "100%" },
   container: {
@@ -431,7 +436,7 @@ export const footerDivSx = {
     fontFamily: font.fontFamily,
     fontWeight: font.fontWeight.bold,
     color: palette.slate,
-    mt: "7.25vw",
+    mt: "9.7vw",
     fontSize: "1.25vw",
     textAlign: "center",
     "b, strong": {
