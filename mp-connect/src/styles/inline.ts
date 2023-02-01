@@ -282,7 +282,8 @@ export const thirdDivSx = {
     mr: "7.3vw",
     textCardContainer: {
       width: "71vw",
-      mt: "7vw",
+      mt: "6vw",
+      mb: "2vw",
     },
   },
   textCard: {

@@ -7,8 +7,8 @@ export const ThirdDivContent = () => {
   return (
     <Box sx={inline.thirdDivSx.container}>
       <Box>
-        <TextCard id={"academics"} />
-        <TextCard id={"labs"} />
+        <TextCard id={"top"} />
+        <TextCard id={"bottom"} />
       </Box>
       <Box>
         <Box>Streamline your microplastics analysis.</Box>
