@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.f9196ca7.css","mappings":"AAEA,UAII,wCAA0C,CAH1C,QAAS,CAET,iBAAkB,CADlB,SAGF","sources":["styles/global.css"],"sourcesContent":["/* global styling */\n\nhtml, body {\n    margin: 0;\n    padding: 0;\n    overflow-x: hidden;\n    font-family: forma-djr-display, sans-serif;\n  }  "],"names":[],"sourceRoot":""}
