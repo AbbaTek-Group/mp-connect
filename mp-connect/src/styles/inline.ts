@@ -101,7 +101,7 @@ export const navBarContentSx = {
 };
 
 export const heroDivSx = {
-  backgroundColor: palette.parchment,
+  backgroundColor: palette.white,
   height: "47.6vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "5",
