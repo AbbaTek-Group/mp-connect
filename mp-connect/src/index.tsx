@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/mp-connect" element={<Home />} />
     </Routes>
   </BrowserRouter>
 );

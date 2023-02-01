@@ -1,15 +1,12 @@
 import { Box, Button } from "@mui/material";
 import { inline } from "../../../styles";
+import logo from "./img/mpconnectlogo.svg";
 
 export const NavBarContent = () => {
   return (
     <Box sx={inline.navBarContentSx.container}>
       <Box>
-        <img
-          src={"/mpconnectlogo.svg"}
-          alt={"MPConnect"}
-          style={inline.navBarContentSx.logo}
-        />
+        <img src={logo} alt={"MPConnect"} style={inline.navBarContentSx.logo} />
       </Box>
       <Box>
         <Button
