@@ -4,7 +4,12 @@ import { inline } from "../../../styles";
 
 export const TextCard = ({ id }: TextCardProps) => {
   return (
-    <Box sx={{ width: "71vw" }}>
+    <Box
+      sx={{
+        ...inline.thirdDivSx.container.textCardContainer,
+        float: id === "academics" ? "left" : "right",
+      }}
+    >
       <Box sx={inline.thirdDivSx.textCard.title}>
         {id === "academics"
           ? "Academics & Research Organizations"

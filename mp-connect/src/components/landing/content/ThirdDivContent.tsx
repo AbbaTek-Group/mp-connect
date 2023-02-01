@@ -6,7 +6,7 @@ import { inline } from "../../../styles";
 export const ThirdDivContent = () => {
   return (
     <Box sx={inline.thirdDivSx.container}>
-      <Box sx={inline.thirdDivSx.container.textCardContainer}>
+      <Box>
         <TextCard id={"academics"} />
         <TextCard id={"labs"} />
       </Box>
