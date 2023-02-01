@@ -63,10 +63,14 @@ export const TextCard = ({ id }: TextCardProps) => {
       }}
     >
       <Box sx={inline.thirdDivSx.textCard.title}>
-        {titleText()}
+        <Box sx={inline.thirdDivSx.textCard.title.text}>{titleText()}</Box>
         <Box sx={inline.thirdDivSx.textCard.subTitle}>
-          {subTitleText()}
-          <Box sx={inline.thirdDivSx.textCard.body}>{bodyText()}</Box>
+          <Box sx={inline.thirdDivSx.textCard.subTitle.text}>
+            {subTitleText()}
+          </Box>
+          <Box sx={inline.thirdDivSx.textCard.body}>
+            <Box sx={inline.thirdDivSx.textCard.body.text}>{bodyText()}</Box>
+          </Box>
         </Box>
       </Box>
     </Box>
