@@ -62,15 +62,21 @@ export const TextCard = ({ id }: TextCardProps) => {
         float: id === "top" ? "left" : "right",
       }}
     >
-      <Box sx={inline.thirdDivSx.textCard.title}>
+      <Box
+        sx={{
+          ...inline.thirdDivSx.textCard.title,
+          width: id === "top" ? "47.75vw" : "24.5vw",
+          ml: id === "top" ? "2vw" : "44.5vw",
+        }}
+      >
         <Box sx={inline.thirdDivSx.textCard.title.text}>{titleText()}</Box>
-        <Box sx={inline.thirdDivSx.textCard.subTitle}>
-          <Box sx={inline.thirdDivSx.textCard.subTitle.text}>
-            {subTitleText()}
-          </Box>
-          <Box sx={inline.thirdDivSx.textCard.body}>
-            <Box sx={inline.thirdDivSx.textCard.body.text}>{bodyText()}</Box>
-          </Box>
+      </Box>
+      <Box sx={inline.thirdDivSx.textCard.subTitle}>
+        <Box sx={inline.thirdDivSx.textCard.subTitle.text}>
+          {subTitleText()}
+        </Box>
+        <Box sx={inline.thirdDivSx.textCard.body}>
+          <Box sx={inline.thirdDivSx.textCard.body.text}>{bodyText()}</Box>
         </Box>
       </Box>
     </Box>

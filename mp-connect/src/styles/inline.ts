@@ -242,6 +242,7 @@ export const secondDivSx = {
       width: "95%",
       height: "65.6%",
       backgroundColor: palette.black,
+      borderRadius: "5px",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
       title: {
         fontFamily: font.fontFamily,
@@ -289,6 +290,9 @@ export const thirdDivSx = {
   textCard: {
     title: {
       backgroundColor: palette.white,
+      borderTopLeftRadius: "5px",
+      borderTopRightRadius: "5px",
+      mb: "-0.1vw",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
       zIndex: "3",
       text: {
@@ -296,11 +300,13 @@ export const thirdDivSx = {
         fontWeight: font.fontWeight.bold,
         fontSize: "2.66vw",
         color: palette.black,
+        mx: "2vw",
       },
     },
     subTitle: {
       width: "71vw",
       backgroundColor: palette.trueWhite,
+      borderRadius: "5px",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
       zIndex: "4",
       text: {
@@ -316,6 +322,7 @@ export const thirdDivSx = {
     body: {
       width: "58.3vw",
       backgroundColor: palette.white,
+      borderRadius: "5px",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
       zIndex: "5",
       text: {
