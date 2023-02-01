@@ -14,11 +14,13 @@ export const ThirdDivContent = () => {
         <TextCard id={"top"} />
         <TextCard id={"bottom"} />
       </Box>
-      <Box>
+      <Box sx={inline.thirdDivSx.bottom}>
         <Box sx={inline.thirdDivSx.bottom.text}>
           Streamline your microplastics analysis.
         </Box>
-        <Button sx={inline.thirdDivSx.bottom.button}>Talk to us today.</Button>
+        <Button sx={inline.thirdDivSx.bottom.button} disableRipple>
+          Talk to us today.
+        </Button>
       </Box>
     </Box>
   );

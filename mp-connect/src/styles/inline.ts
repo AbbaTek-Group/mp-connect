@@ -359,8 +359,33 @@ export const thirdDivSx = {
     },
   },
   bottom: {
-    text: {},
-    button: {},
+    mb: "6.5vw",
+    mx: "1vw",
+    text: {
+      fontFamily: font.fontFamily,
+      fontWeight: font.fontWeight.bold,
+      fontSize: "3.8vw",
+      color: palette.black,
+      float: "left",
+    },
+    button: {
+      backgroundColor: palette.mpBlue,
+      paddingX: "4vw",
+      borderRadius: "5px",
+      mt: "1vw",
+      fontFamily: font.fontFamily,
+      fontWeight: font.fontWeight.bold,
+      fontSize: "3.5vw",
+      color: palette.white,
+      float: "right",
+      boxShadow: "0px 0px 16px rgb(0 0 0 / 0.08)",
+      textShadow: "0px 0px 16px rgb(0 0 0 / 0.08)",
+      "&:hover": {
+        backgroundColor: palette.slate,
+        textShadow: "0px 0px 16px rgb(0 0 0 / 0.08)",
+        boxShadow: "none",
+      },
+    },
   },
 };
 
