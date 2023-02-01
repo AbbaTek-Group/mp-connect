@@ -80,10 +80,13 @@ export const navBarContentSx = {
     fontWeight: font.fontWeight.bold,
     backgroundColor: palette.mpBlue,
     borderRadius: "5px",
-    color: palette.white,
     paddingY: "0.25vw",
     width: "13vw",
     boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+    a: {
+      color: palette.white,
+      textDecoration: "none",
+    },
     "&:hover": {
       backgroundColor: palette.slate,
       textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
@@ -123,9 +126,12 @@ export const heroDivSx = {
     paddingX: "1.5vw",
     backgroundColor: palette.mpBlue,
     borderRadius: "5px",
-    color: palette.parchment,
     width: "16.5vw",
     boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+    a: {
+      color: palette.parchment,
+      textDecoration: "none",
+    },
     "&:hover": {
       backgroundColor: palette.slate,
       textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
@@ -373,10 +379,13 @@ export const thirdDivSx = {
       fontFamily: font.fontFamily,
       fontWeight: font.fontWeight.bold,
       fontSize: "3.5vw",
-      color: palette.white,
       float: "right",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.08)",
       textShadow: "0px 0px 16px rgb(0 0 0 / 0.08)",
+      a: {
+        color: palette.white,
+        textDecoration: "none",
+      },
       "&:hover": {
         backgroundColor: palette.slate,
         textShadow: "0px 0px 16px rgb(0 0 0 / 0.08)",

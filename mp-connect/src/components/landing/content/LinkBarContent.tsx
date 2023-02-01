@@ -13,13 +13,6 @@ export const LinkBarContent = () => {
       >
         <LinkedInIcon />
       </IconButton>
-      <IconButton
-        sx={linkBarContentSx.iconButton}
-        onClick={() => console.log("twitter")}
-        disableRipple
-      >
-        <TwitterIcon />
-      </IconButton>
     </Box>
   );
 };

@@ -17,7 +17,9 @@ export const HeroDivContent = () => {
           variant="contained"
           disableRipple
         >
-          Schedule A Meeting
+          <a href="https://calendly.com/abbatekgroup/30min?month=2023-02">
+            Schedule A Meeting
+          </a>
         </Button>
       </Box>
       <Box sx={inline.heroDivSx.imageBox}>
