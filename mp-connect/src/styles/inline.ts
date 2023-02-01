@@ -231,9 +231,10 @@ export const secondDivSx = {
       alignItems: "center",
     },
     icon: {
-      color: "white",
+      color: palette.white,
       fontSize: "7.5vw",
       mb: "2vw",
+      filter: "drop-shadow(0px 0px 16px rgb(0 0 0 / 0.08))",
     },
     textBox: {
       display: "flex",
@@ -356,6 +357,10 @@ export const thirdDivSx = {
         color: palette.black,
       },
     },
+  },
+  bottom: {
+    text: {},
+    button: {},
   },
 };
 
