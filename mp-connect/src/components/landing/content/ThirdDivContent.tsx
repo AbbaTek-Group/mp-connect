@@ -18,7 +18,11 @@ export const ThirdDivContent = () => {
         <Box sx={inline.thirdDivSx.bottom.text}>
           Streamline your microplastics analysis.
         </Box>
-        <Button sx={inline.thirdDivSx.bottom.button} disableRipple>
+        <Button
+          sx={inline.thirdDivSx.bottom.button}
+          onClick={() => console.log("talk to us")}
+          disableRipple
+        >
           Talk to us today.
         </Button>
       </Box>

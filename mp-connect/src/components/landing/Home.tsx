@@ -3,10 +3,10 @@ import { appTheme, inline } from "../../styles";
 import {
   LinkBar,
   NavBar,
-  TopDiv,
+  HeroDiv,
   SecondDiv,
   ThirdDiv,
-  BottomDiv,
+  FooterDiv,
 } from "./index";
 
 export const Home = () => {
@@ -15,10 +15,10 @@ export const Home = () => {
       <ThemeProvider theme={appTheme}>
         <LinkBar />
         <NavBar />
-        <TopDiv />
+        <HeroDiv />
         <SecondDiv />
         <ThirdDiv />
-        <BottomDiv />
+        <FooterDiv />
       </ThemeProvider>
     </Box>
   );

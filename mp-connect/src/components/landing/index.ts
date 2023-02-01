@@ -1,7 +1,7 @@
 export { Home } from "./Home";
 export { LinkBar } from "./LinkBar";
 export { NavBar } from "./NavBar";
-export { TopDiv } from "./TopDiv";
+export { HeroDiv } from "./HeroDiv";
 export { SecondDiv } from "./SecondDiv";
 export { ThirdDiv } from "./ThirdDiv";
-export { BottomDiv } from "./BottomDiv";
+export { FooterDiv } from "./FooterDiv";

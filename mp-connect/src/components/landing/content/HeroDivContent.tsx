@@ -2,7 +2,7 @@ import { Box, Button } from "@mui/material";
 import { inline } from "../../../styles";
 import hexPattern from "./img/hexpattern.png";
 
-export const TopDivContent = () => {
+export const HeroDivContent = () => {
   return (
     <Box sx={inline.topDivSx.container}>
       <Box sx={inline.topDivSx.textBox}>

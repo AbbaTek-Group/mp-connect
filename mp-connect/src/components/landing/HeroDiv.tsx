@@ -1,11 +1,11 @@
 import { Box } from "@mui/material";
-import { TopDivContent } from "./content";
+import { HeroDivContent } from "./content";
 import { inline } from "../../styles";
 
-export const TopDiv = () => {
+export const HeroDiv = () => {
   return (
     <Box sx={inline.topDivSx}>
-      <TopDivContent />
+      <HeroDivContent />
     </Box>
   );
 };

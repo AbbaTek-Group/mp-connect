@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import { inline } from "../../styles";
 
-export const BottomDiv = () => {
+export const FooterDiv = () => {
   return <Box sx={inline.bottomDivSx}></Box>;
 };
