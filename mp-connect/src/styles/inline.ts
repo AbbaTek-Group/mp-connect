@@ -304,15 +304,17 @@ export const thirdDivSx = {
       },
     },
     subTitle: {
-      width: "71vw",
       backgroundColor: palette.trueWhite,
+      paddingTop: "2vw",
+      paddingBottom: "4.75vw",
+      paddingX: "5.25vw",
       borderRadius: "5px",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
       zIndex: "4",
       text: {
         fontFamily: font.fontFamily,
         fontWeight: font.fontWeight.bold,
-        fontSize: "2vw",
+        fontSize: "2.2vw",
         color: palette.black,
       },
       "b, strong": {
@@ -320,7 +322,6 @@ export const thirdDivSx = {
       },
     },
     body: {
-      width: "58.3vw",
       backgroundColor: palette.white,
       borderRadius: "5px",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
@@ -328,7 +329,10 @@ export const thirdDivSx = {
       text: {
         fontFamily: font.fontFamily,
         fontWeight: font.fontWeight.medium,
-        fontSize: "1.7vw",
+        fontSize: "1.85vw",
+        width: "58vw",
+        py: "1vw",
+        px: "2vw",
         color: palette.black,
       },
       "b, strong": {

@@ -33,23 +33,25 @@ export const TextCard = ({ id }: TextCardProps) => {
         <>
           Physical characterization of microplastics isn't easy -
           <b> we get that. </b>
-          Our standalone web application can help you process, analyze and share
-          your microplastics data without worrying about the nuances of
-          microplastics characterization or massive upfront investments. Rest
-          assured that your research is aligned with best practices for
-          microplastics analysis. Even better, pay only for what your project
-          requires! It's as easy as signing up and uploading your raw image
-          files.
+          <br />
+          Our standalone web application can help you process, analyze
+          <br /> and share your microplastics data without worrying about the
+          <br /> nuances of microplastics characterization or massive upfront
+          <br /> investments. Rest assured that your research is aligned with
+          <br /> best practices for microplastics analysis. Even better, pay
+          <br /> only for what your project requires! It's as easy as signing
+          <br /> up and uploading your raw image files.
         </>
       );
     } else {
       return (
         <>
-          Time is money. Manual analysis of particles is laborious, error-prone,
-          and most importantly . . . boring! Stop spending hours under a
-          microscope for a task that can be automated. Our API-based solution
-          can integrate directly into your LIMS, allowing easy, replicable and
-          reliable results.
+          Time is money. Manual analysis of particles is laborious,
+          <br /> error-prone, and most importantly . . . boring! ,
+          <br /> Stop spending hours under a microscope for a task,
+          <br /> that can be automated. Our API-based solution
+          <br /> can integrate directly into your LIMS, allowing
+          <br /> easy, replicable and reliable results.
         </>
       );
     }
@@ -72,7 +74,12 @@ export const TextCard = ({ id }: TextCardProps) => {
         <Box sx={inline.thirdDivSx.textCard.title.text}>{titleText()}</Box>
       </Box>
       <Box sx={inline.thirdDivSx.textCard.subTitle}>
-        <Box sx={inline.thirdDivSx.textCard.subTitle.text}>
+        <Box
+          sx={{
+            ...inline.thirdDivSx.textCard.subTitle.text,
+            ml: id === "top" ? null : "25.7vw",
+          }}
+        >
           {subTitleText()}
         </Box>
         <Box sx={inline.thirdDivSx.textCard.body}>
