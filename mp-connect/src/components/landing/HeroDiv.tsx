@@ -4,7 +4,7 @@ import { inline } from "../../styles";
 
 export const HeroDiv = () => {
   return (
-    <Box sx={inline.topDivSx}>
+    <Box sx={inline.heroDivSx}>
       <HeroDivContent />
     </Box>
   );

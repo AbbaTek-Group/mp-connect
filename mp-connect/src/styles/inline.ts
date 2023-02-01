@@ -92,9 +92,8 @@ export const navBarContentSx = {
   },
 };
 
-export const topDivSx = {
+export const heroDivSx = {
   backgroundColor: palette.parchment,
-  width: "100vw",
   height: "47.6vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "5",
@@ -153,7 +152,6 @@ export const secondDivSx = {
   backgroundImage: `linear-gradient(${palette.black}, ${palette.slate})`,
   backgroundPositionY: "22.5vw",
   backgroundRepeat: "no-repeat",
-  width: "100vw",
   height: "76.16vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "4",
@@ -272,7 +270,6 @@ export const thirdDivSx = {
   backgroundSize: "100vw 50vw",
   backgroundPositionY: "75vw",
   backgroundRepeat: "no-repeat",
-  width: "100vw",
   height: "100vw",
   zIndex: "3",
   container: {
@@ -389,9 +386,13 @@ export const thirdDivSx = {
   },
 };
 
-export const bottomDivSx = {
+export const footerDivSx = {
   backgroundColor: palette.white,
-  width: "100vw",
   height: "25vw",
   zIndex: "2",
+  break: { backgroundColor: palette.grey, height: "1px", width: "100%" },
+  container: {
+    ml: "7.3vw",
+    mr: "7.3vw",
+  },
 };
