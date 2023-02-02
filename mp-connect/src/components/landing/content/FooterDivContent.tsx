@@ -41,7 +41,7 @@ export const FooterDivContent = () => {
         })}
       </Box>
       <Box sx={inline.footerDivSx.footer}>
-        © 2022 <b>AbbaTek Group Inc.</b> All rights reserved.
+        © 2023 <b>AbbaTek Group Inc.</b> All rights reserved.
       </Box>
     </Box>
   );

@@ -9,14 +9,7 @@ export const HeroDivContent = () => {
         <Box sx={{ marginBottom: "-1.5vw" }}>Cost Effective,</Box>
         <Box sx={{ marginBottom: "-1.5vw" }}>Reliable</Box>
         <Box>Microplastics Analysis.</Box>
-        <Button
-          sx={inline.heroDivSx.button}
-          onClick={() => {
-            console.log("Schedule A Meeting");
-          }}
-          variant="contained"
-          disableRipple
-        >
+        <Button sx={inline.heroDivSx.button} variant="contained" disableRipple>
           <a href="https://calendly.com/abbatekgroup/30min?month=2023-02">
             Schedule A Meeting
           </a>
