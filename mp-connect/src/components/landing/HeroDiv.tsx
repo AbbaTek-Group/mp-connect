@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import { HeroDivContent } from "./content";
-import heroImage from "./content/img/plastic3.svg";
+import heroImage from "./content/img/hero.svg";
 import { inline } from "../../styles";
 
 export const HeroDiv = () => {

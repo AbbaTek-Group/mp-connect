@@ -1,6 +1,5 @@
 import { Box, Button } from "@mui/material";
 import { inline } from "../../../styles";
-// import hexPattern from "./img/hexpattern.png";
 
 export const HeroDivContent = () => {
   return (

@@ -101,7 +101,10 @@ export const navBarContentSx = {
 };
 
 export const heroDivSx = {
-  backgroundColor: palette.white,
+  backgroundColor: palette.trueWhite,
+  backgroundSize: "100vw 56.25vw",
+  backgroundPositionY: "3vw",
+  backgroundRepeat: "no-repeat",
   height: "47.6vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "5",

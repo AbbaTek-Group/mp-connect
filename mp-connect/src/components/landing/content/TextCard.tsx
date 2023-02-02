@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import { TextCardProps } from "../../../types";
+import CheckIcon from "@mui/icons-material/Check";
 import { inline } from "../../../styles";
 
 export const TextCard = ({ id }: TextCardProps) => {
@@ -30,18 +31,28 @@ export const TextCard = ({ id }: TextCardProps) => {
   const bodyText = () => {
     if (id === "top") {
       return (
-        <>
-          Physical characterization of microplastics isn't easy -
-          <b> we get that. </b>
-          <br />
-          Our standalone web application can help you process, analyze and share
-          <br /> your microplastics data without worrying about the nuances
-          <br /> of microplastics characterization or massive upfront
-          <br /> investments. Rest assured that your research is
-          <br /> aligned with best practices for microplastics analysis.
-          <br /> Even better, pay only for what your project requires!
-          <br /> It's as easy as signing up and uploading your raw image files.
-        </>
+        <Box>
+          Physical characterization of microplastics isn't easy - we get that.
+          <br /> Our standalone web application can help you process, analyze,
+          <br /> and share your microplastics data without worrying about the
+          <br /> nuances of microplastics characterization.
+          <Box sx={{ ml: "4vw", mt: "1vw" }}>
+            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+            <>Reduce identification and characterization error</>
+            <br />
+            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+            <>No upfront investment - cost scales with your project</>
+            <br />
+            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+            <>Ensure alignment with best practices</>
+            <br />
+            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+            <>Collaborate and share with your research group</>
+            <br />
+            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+            <>Easily conduct quality control on data</>
+          </Box>
+        </Box>
       );
     } else {
       return (

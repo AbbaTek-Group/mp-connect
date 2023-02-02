@@ -8,8 +8,8 @@ import { inline } from "../../../styles";
 export const ThirdDivContent = () => {
   return (
     <Box sx={inline.thirdDivSx.container}>
-      <SchoolIcon sx={inline.thirdDivSx.topIcon} />
-      <AnalyticsIcon sx={inline.thirdDivSx.bottomIcon} />
+      {/* <SchoolIcon sx={inline.thirdDivSx.topIcon} />
+      <AnalyticsIcon sx={inline.thirdDivSx.bottomIcon} /> */}
       <Box>
         <TextCard id={"top"} />
         <TextCard id={"bottom"} />
