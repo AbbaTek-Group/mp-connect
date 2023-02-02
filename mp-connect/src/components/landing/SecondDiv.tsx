@@ -1,10 +1,10 @@
 import { Box } from "@mui/material";
 import { SecondDivContent } from "./content";
-import { inline } from "../../styles";
+import { landing } from "../../styles";
 
 export const SecondDiv = () => {
   return (
-    <Box sx={inline.secondDivSx}>
+    <Box sx={landing.secondDivSx}>
       <SecondDivContent />
     </Box>
   );

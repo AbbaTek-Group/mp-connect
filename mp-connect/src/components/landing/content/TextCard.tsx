@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
-import { TextCardProps } from "../../../types";
 import CheckIcon from "@mui/icons-material/Check";
-import { inline } from "../../../styles";
+import { landing } from "../../../styles";
+import { TextCardProps } from "../../../types";
 
 export const TextCard = ({ id }: TextCardProps) => {
   const titleText = () => {
@@ -37,20 +37,20 @@ export const TextCard = ({ id }: TextCardProps) => {
           and share
           <br /> your microplastics data without worrying about the nuances of
           <br /> microplastics characterization.
-          <Box sx={inline.thirdDivSx.textCard.body.bullets}>
-            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+          <Box sx={landing.thirdDivSx.textCard.body.bullets}>
+            <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>Reduce identification and characterization error</>
             <br />
-            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>No upfront investment - cost scales with your project</>
             <br />
-            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>Ensure alignment with best practices</>
             <br />
-            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>Collaborate and share with your research group</>
             <br />
-            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>Easily conduct quality control on data</>
           </Box>
         </Box>
@@ -61,19 +61,19 @@ export const TextCard = ({ id }: TextCardProps) => {
           Time is money. Manual analysis of particles is laborious, error-prone,
           <br />
           and most importantly—boring!
-          <Box sx={inline.thirdDivSx.textCard.body.bullets}>
-            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+          <Box sx={landing.thirdDivSx.textCard.body.bullets}>
+            <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>
               Streamline your analytical workflow and increase sample throughput
             </>
             <br />
-            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>Ensure repeatable results across lab personnel</>
             <br />
-            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>Integrate directly into your LIM system for maximum efficiency</>
             <br />
-            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>Reduce strain on lab personnel</>
           </Box>
         </Box>
@@ -84,30 +84,30 @@ export const TextCard = ({ id }: TextCardProps) => {
   return (
     <Box
       sx={{
-        ...inline.thirdDivSx.container.textCardContainer,
+        ...landing.thirdDivSx.container.textCardContainer,
         float: id === "top" ? "left" : "right",
       }}
     >
       <Box
         sx={{
-          ...inline.thirdDivSx.textCard.title,
+          ...landing.thirdDivSx.textCard.title,
           width: id === "top" ? "47.75vw" : "24.5vw",
           ml: id === "top" ? "2vw" : "44.5vw",
         }}
       >
-        <Box sx={inline.thirdDivSx.textCard.title.text}>{titleText()}</Box>
+        <Box sx={landing.thirdDivSx.textCard.title.text}>{titleText()}</Box>
       </Box>
-      <Box sx={inline.thirdDivSx.textCard.subTitle}>
+      <Box sx={landing.thirdDivSx.textCard.subTitle}>
         <Box
           sx={{
-            ...inline.thirdDivSx.textCard.subTitle.text,
+            ...landing.thirdDivSx.textCard.subTitle.text,
             ml: id === "top" ? null : "25.7vw",
           }}
         >
           {subTitleText()}
         </Box>
-        <Box sx={inline.thirdDivSx.textCard.body}>
-          <Box sx={inline.thirdDivSx.textCard.body.text}>{bodyText()}</Box>
+        <Box sx={landing.thirdDivSx.textCard.body}>
+          <Box sx={landing.thirdDivSx.textCard.body.text}>{bodyText()}</Box>
         </Box>
       </Box>
     </Box>

@@ -1,5 +1,5 @@
 import { Box, ThemeProvider } from "@mui/material";
-import { appTheme, inline } from "../../styles";
+import { appTheme, landing } from "../../styles";
 import {
   LinkBar,
   NavBar,
@@ -11,7 +11,7 @@ import {
 
 export const Home = () => {
   return (
-    <Box sx={inline.homeSx.divContainer}>
+    <Box sx={landing.homeSx.divContainer}>
       <ThemeProvider theme={appTheme}>
         <LinkBar />
         <NavBar />

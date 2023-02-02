@@ -1,23 +1,27 @@
 import { Box, Button } from "@mui/material";
-import { inline } from "../../../styles";
+import { landing } from "../../../styles";
 import logo from "./img/mpconnectlogo.svg";
 
 export const NavBarContent = () => {
   return (
-    <Box sx={inline.navBarContentSx.container}>
+    <Box sx={landing.navBarContentSx.container}>
       <Box>
-        <img src={logo} alt={"MPConnect"} style={inline.navBarContentSx.logo} />
+        <img
+          src={logo}
+          alt={"MPConnect"}
+          style={landing.navBarContentSx.logo}
+        />
       </Box>
       <Box>
         <Button
-          sx={inline.navBarContentSx.loginButton}
+          sx={landing.navBarContentSx.loginButton}
           variant="contained"
           disableRipple
         >
           Login
         </Button>
         <Button
-          sx={inline.navBarContentSx.registerButton}
+          sx={landing.navBarContentSx.registerButton}
           variant="contained"
           disableRipple
         >

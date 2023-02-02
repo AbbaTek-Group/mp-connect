@@ -1,7 +1,7 @@
 import { cloneElement } from "react";
 import { Box, useScrollTrigger } from "@mui/material";
 import { NavBarContent } from "./content";
-import { inline } from "../../styles";
+import { landing } from "../../styles";
 import { NavScrollFxProps } from "../../types";
 
 function ScrollFx(props: NavScrollFxProps) {
@@ -23,7 +23,7 @@ function ScrollFx(props: NavScrollFxProps) {
 export const NavBar = ({ props }: any) => {
   return (
     <ScrollFx {...props}>
-      <Box sx={inline.navBarSx}>
+      <Box sx={landing.navBarSx}>
         <NavBarContent />
       </Box>
     </ScrollFx>

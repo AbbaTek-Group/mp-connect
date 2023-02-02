@@ -1,6 +1,6 @@
 import { Box, IconButton } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { linkBarContentSx } from "../../../styles/inline";
+import { linkBarContentSx } from "../../../styles/landing";
 
 export const LinkBarContent = () => {
   return (

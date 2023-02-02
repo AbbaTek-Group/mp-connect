@@ -1,4 +1,4 @@
 export { appTheme } from "./appTheme";
 export { font } from "./font";
-export * as inline from "./inline";
+export * as landing from "./landing";
 export { palette } from "./palette";

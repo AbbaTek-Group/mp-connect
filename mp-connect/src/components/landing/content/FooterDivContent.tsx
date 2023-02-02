@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { inline } from "../../../styles";
+import { landing } from "../../../styles";
 
 export const FooterDivContent = () => {
   const directory: any = [
@@ -22,16 +22,16 @@ export const FooterDivContent = () => {
   ];
 
   return (
-    <Box sx={inline.footerDivSx.container}>
-      <Box sx={inline.footerDivSx.break} />
-      <Box sx={inline.footerDivSx.directory}>
+    <Box sx={landing.footerDivSx.container}>
+      <Box sx={landing.footerDivSx.break} />
+      <Box sx={landing.footerDivSx.directory}>
         {directory.map((index: any) => {
           return (
             <Box sx={{ mx: "2vw" }} key={index.heading}>
-              <Box sx={inline.footerDivSx.title}>{index.heading}</Box>
+              <Box sx={landing.footerDivSx.title}>{index.heading}</Box>
               {index.subHeading.map((subIndex: any) => {
                 return (
-                  <Box sx={inline.footerDivSx.text} key={subIndex.title}>
+                  <Box sx={landing.footerDivSx.text} key={subIndex.title}>
                     <a href={subIndex.url}>{subIndex.title}</a>
                   </Box>
                 );
@@ -40,7 +40,7 @@ export const FooterDivContent = () => {
           );
         })}
       </Box>
-      <Box sx={inline.footerDivSx.footer}>
+      <Box sx={landing.footerDivSx.footer}>
         © 2023 <b>AbbaTek Group Inc.</b> All rights reserved.
       </Box>
     </Box>
