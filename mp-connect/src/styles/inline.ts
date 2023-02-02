@@ -68,6 +68,7 @@ export const navBarContentSx = {
     fontFamily: font.fontFamily,
     fontWeight: font.fontWeight.medium,
     backgroundColor: palette.parchment,
+    fontSize: "1.1vw",
     borderRadius: "5px",
     color: palette.black,
     paddingY: "0.25vw",
@@ -83,6 +84,7 @@ export const navBarContentSx = {
   registerButton: {
     fontFamily: font.fontFamily,
     fontWeight: font.fontWeight.bold,
+    fontSize: "1.1vw",
     backgroundColor: palette.mpBlue,
     borderRadius: "5px",
     paddingY: "0.25vw",
