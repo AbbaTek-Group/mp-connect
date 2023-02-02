@@ -1,4 +1,4 @@
-// component inline styling
+// landing inline styling
 
 import { palette } from "./palette";
 import { font } from "./font";
