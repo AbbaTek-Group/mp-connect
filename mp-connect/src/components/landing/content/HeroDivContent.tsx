@@ -1,6 +1,6 @@
 import { Box, Button } from "@mui/material";
 import { inline } from "../../../styles";
-import hexPattern from "./img/hexpattern.png";
+// import hexPattern from "./img/hexpattern.png";
 
 export const HeroDivContent = () => {
   return (
@@ -14,14 +14,6 @@ export const HeroDivContent = () => {
             Schedule A Meeting
           </a>
         </Button>
-      </Box>
-      <Box sx={inline.heroDivSx.imageBox}>
-        <Box
-          sx={{
-            ...inline.heroDivSx.imageBox.hexPattern,
-            backgroundImage: `url(${hexPattern})`,
-          }}
-        ></Box>
       </Box>
     </Box>
   );

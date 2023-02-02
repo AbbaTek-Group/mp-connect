@@ -143,19 +143,6 @@ export const heroDivSx = {
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
     },
   },
-  imageBox: {
-    backgroundColor: "white",
-    width: "42.3vw",
-    height: "100%",
-    zIndex: "5",
-    hexPattern: {
-      width: "42.3vw",
-      height: "47.6vw",
-      backgroundSize: "42.3vw",
-      backgroundRepeat: "repeat-y",
-      backgroundPosition: "0vw 0vw",
-    },
-  },
 };
 
 export const secondDivSx = {
