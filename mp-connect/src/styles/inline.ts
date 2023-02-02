@@ -267,12 +267,18 @@ export const secondDivSx = {
 
 export const thirdDivSx = {
   backgroundColor: palette.mpTeal,
-  backgroundImage: `linear-gradient(${palette.mpTeal}, ${palette.white})`,
-  backgroundSize: "100vw 50vw",
-  backgroundPositionY: "50vw",
-  backgroundRepeat: "no-repeat",
-  height: "100vw",
   zIndex: "3",
+  plastic: {
+    backgroundRepeat: "repeat-y",
+    backgroundSize: "100vw",
+  },
+  gradiant: {
+    backgroundImage: `linear-gradient(transparent, ${palette.white})`,
+    height: "100vw",
+    backgroundSize: "100vw 50vw",
+    backgroundPositionY: "50vw",
+    backgroundRepeat: "no-repeat",
+  },
   container: {
     display: "flex",
     flexDirection: "column",
@@ -371,6 +377,7 @@ export const thirdDivSx = {
     mb: "6.5vw",
     mx: "1vw",
     text: {
+      mt: "4vw",
       fontFamily: font.fontFamily,
       fontWeight: font.fontWeight.bold,
       fontSize: "3.8vw",
