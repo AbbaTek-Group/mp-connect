@@ -8,7 +8,6 @@
 
 # production
 /build
-/login
 /app
 
 # misc
