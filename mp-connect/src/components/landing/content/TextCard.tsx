@@ -32,38 +32,51 @@ export const TextCard = ({ id }: TextCardProps) => {
     if (id === "top") {
       return (
         <Box>
-          Physical characterization of microplastics isn't easy - we get that.
+          Physical characterization of microplastics isn't easy—we get that.
           <br /> Our standalone web application can help you process, analyze,
-          <br /> and share your microplastics data without worrying about the
-          <br /> nuances of microplastics characterization.
-          <Box sx={{ ml: "4vw", mt: "1vw" }}>
-            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+          and share
+          <br /> your microplastics data without worrying about the nuances of
+          <br /> microplastics characterization.
+          <Box sx={inline.thirdDivSx.textCard.body.bullets}>
+            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
             <>Reduce identification and characterization error</>
             <br />
-            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
             <>No upfront investment - cost scales with your project</>
             <br />
-            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
             <>Ensure alignment with best practices</>
             <br />
-            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
             <>Collaborate and share with your research group</>
             <br />
-            <CheckIcon sx={{ mb: "-0.35vw", mr: "0.5vw" }} />
+            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
             <>Easily conduct quality control on data</>
           </Box>
         </Box>
       );
     } else {
       return (
-        <>
-          Time is money. Manual analysis of particles is laborious,
-          <br /> error-prone, and most importantly . . . boring! ,
-          <br /> Stop spending hours under a microscope for a task,
-          <br /> that can be automated. Our API-based solution
-          <br /> can integrate directly into your LIMS, allowing
-          <br /> easy, replicable and reliable results.
-        </>
+        <Box>
+          Time is money. Manual analysis of particles is laborious, error-prone,
+          <br />
+          and most importantly—boring!
+          <Box sx={inline.thirdDivSx.textCard.body.bullets}>
+            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <>
+              Streamline your analytical workflow and increase sample throughput
+            </>
+            <br />
+            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <>Ensure repeatable results across lab personnel</>
+            <br />
+            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <>Integrate directly into your LIM system for maximum efficiency</>
+            <br />
+            <CheckIcon sx={inline.thirdDivSx.textCard.body.checks} />
+            <>Reduce strain on lab personnel</>
+          </Box>
+        </Box>
       );
     }
   };

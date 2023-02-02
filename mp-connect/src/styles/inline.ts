@@ -345,11 +345,22 @@ export const thirdDivSx = {
       text: {
         fontFamily: font.fontFamily,
         fontWeight: font.fontWeight.medium,
-        fontSize: "1.85vw",
+        fontSize: "1.75vw",
         width: "58vw",
         py: "1vw",
         px: "2vw",
         color: palette.black,
+      },
+      bullets: {
+        fontSize: "1.7vw",
+        ml: "4vw",
+        mt: "1vw",
+      },
+      checks: {
+        fontSize: "1.85vw",
+        color: palette.slate,
+        mb: "-0.35vw",
+        mr: "0.5vw",
       },
       "b, strong": {
         color: palette.black,
