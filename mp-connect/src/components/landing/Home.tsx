@@ -12,7 +12,7 @@ import {
 export const Home = () => {
   return (
     <Box sx={landing.homeSx.divContainer}>
-      <ThemeProvider theme={appTheme}>
+      <ThemeProvider theme={appTheme.landingTheme}>
         <LinkBar />
         <NavBar />
         <HeroDiv />

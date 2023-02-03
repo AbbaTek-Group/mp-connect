@@ -6,7 +6,7 @@ import graphic from "../img/graphic.png";
 export const LoginContent = () => {
   return (
     <Box sx={login.loginSx.container}>
-      <Box sx={{ width: "100%", height: "33.95vw" }}>
+      <Box sx={{ width: "100%" }}>
         <Box
           sx={{
             ...login.loginSx.imgDiv,

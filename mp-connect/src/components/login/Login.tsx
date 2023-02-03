@@ -5,7 +5,7 @@ import { login, appTheme } from "../../styles";
 export const Login = () => {
   return (
     <Box sx={login.loginSx}>
-      <ThemeProvider theme={appTheme}>
+      <ThemeProvider theme={appTheme.loginTheme}>
         <LoginContent />
       </ThemeProvider>
     </Box>

@@ -9,18 +9,9 @@ export const LoginForm = () => {
       </Box>
       <Box sx={login.loginSx.formDiv.form}>
         <Box>Email</Box>
-        <TextField
-          sx={login.loginSx.formDiv.textField}
-          id="email"
-          variant="filled"
-        />
+        <TextField id="email" variant="filled" />
         <Box>Password</Box>
-        <TextField
-          sx={login.loginSx.formDiv.textField}
-          id="password"
-          type="password"
-          variant="filled"
-        />
+        <TextField id="password" type="password" variant="filled" />
         <Button sx={login.loginSx.formDiv.signInButton}>Sign In</Button>
         <Button sx={login.loginSx.formDiv.forgotButton}>Forgot Password</Button>
       </Box>
