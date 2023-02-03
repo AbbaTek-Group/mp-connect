@@ -44,6 +44,7 @@ export const loginSx = {
       color: palette.black,
       fontSize: "1.25vw",
     },
+    textField: {},
     signInButton: {
       fontFamily: font.fontFamily,
       fontWeight: font.fontWeight.bold,
