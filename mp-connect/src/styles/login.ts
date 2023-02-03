@@ -19,10 +19,6 @@ export const loginSx = {
   imgDiv: {
     height: "100%",
     backgroundSize: "100%",
-    div: {
-      width: "100%",
-      height: "33.95vw",
-    },
   },
   formDiv: {
     display: "flex",
@@ -30,14 +26,12 @@ export const loginSx = {
     backgroundColor: palette.white,
     borderRadius: "5px",
     boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
-    height: "100%",
+    height: "23.75vw",
     ml: "6.14vw",
+    padding: "4.3vw",
     title: {},
     text: {},
     signInButton: {},
     forgotButton: {},
-    div: {
-      width: "100%",
-    },
   },
 };

@@ -1,11 +1,12 @@
-import { Box, Button } from "@mui/material";
+import { Box } from "@mui/material";
+import { LoginForm } from "./LoginForm";
 import { login } from "../../../../styles";
 import graphic from "../img/graphic.png";
 
 export const LoginContent = () => {
   return (
     <Box sx={login.loginSx.container}>
-      <Box sx={login.loginSx.imgDiv.div}>
+      <Box sx={{ width: "100%", height: "33.95vw" }}>
         <Box
           sx={{
             ...login.loginSx.imgDiv,
@@ -13,15 +14,9 @@ export const LoginContent = () => {
           }}
         />
       </Box>
-      <Box sx={login.loginSx.formDiv.div}>
+      <Box sx={{ width: "100%" }}>
         <Box sx={login.loginSx.formDiv}>
-          <Box>Sign Into MPConnect</Box>
-          <Box>
-            <Box>Email Address</Box>
-            <Box>Password</Box>
-            <Button>Sign In</Button>
-            <Button>Forgot Password</Button>
-          </Box>
+          <LoginForm />
         </Box>
       </Box>
     </Box>
