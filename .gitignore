@@ -8,7 +8,7 @@
 
 # production
 /build
-/web-app
+mp-connect/src/components/app/
 
 # misc
 .DS_Store
@@ -16,3 +16,4 @@
 .env.development.local
 .env.test.local
 .env.production.local
+
