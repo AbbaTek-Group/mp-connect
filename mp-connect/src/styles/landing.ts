@@ -3,11 +3,6 @@
 import { palette } from "./palette";
 import { font } from "./font";
 
-// mobile
-// "@media (max-width: 480px)": {
-//   backgroundColor: "pink",
-// },
-
 export const homeSx = {
   divContainer: {
     display: "flex",
@@ -129,7 +124,7 @@ export const heroDivSx = {
     backgroundSize: "cover",
     backgroundPositionY: "30vw",
     backgroundPositionX: "0vw",
-    height: "100vh",
+    height: "180vw",
   },
   container: {
     display: "flex",
@@ -200,7 +195,7 @@ export const secondDivSx = {
   zIndex: "4",
   "@media (max-width: 480px)": {
     backgroundPositionY: "15.5vw",
-    height: "200vh",
+    height: "400vw",
   },
   container: {
     display: "flex",
@@ -226,7 +221,7 @@ export const secondDivSx = {
     "@media (max-width: 480px)": {
       ml: "0vw",
       mr: "0vw",
-      mt: "4.5vh",
+      mt: "8.5vw",
       height: "auto",
       width: "81vw",
       flexDirection: "column",
@@ -243,7 +238,7 @@ export const secondDivSx = {
       "@media (max-width: 480px)": {
         height: "40vw",
         width: "40vw",
-        mb: "3.5vh",
+        mb: "7vw",
         backgroundPosition: "0vw",
         backgroundSize: "cover",
       },
@@ -280,7 +275,7 @@ export const secondDivSx = {
           textAlign: "center",
           fontSize: "5vw",
           width: "100%",
-          mt: "2.5vh",
+          mt: "6vw",
         },
         "b, strong": {
           color: palette.mpTeal,
@@ -311,7 +306,7 @@ export const secondDivSx = {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        mt: "3.5vh",
+        mt: "5.5vw",
       },
     },
   },
@@ -323,7 +318,7 @@ export const secondDivSx = {
       justifyContent: "center",
       alignItems: "center",
       "@media (max-width: 480px)": {
-        mb: "3.5vh",
+        mb: "7vw",
       },
     },
     icon: {
@@ -332,8 +327,8 @@ export const secondDivSx = {
       mb: "2vw",
       filter: "drop-shadow(0px 0px 16px rgb(0 0 0 / 0.08))",
       "@media (max-width: 480px)": {
-        fontSize: "7.5vh",
-        mb: "2.5vh",
+        fontSize: "13.5vw",
+        my: "5vw",
       },
     },
     textBox: {
@@ -358,8 +353,8 @@ export const secondDivSx = {
         textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
         "@media (max-width: 480px)": {
           fontSize: "7.5vw",
-          mt: "3.5vh",
-          mb: "1.5vh",
+          mt: "6vw",
+          mb: "3vw",
         },
       },
       body: {
@@ -374,7 +369,7 @@ export const secondDivSx = {
           fontSize: "5.5vw",
           marginX: "none",
           mt: "none",
-          mb: "3.5vh",
+          mb: "5vw",
         },
       },
     },
@@ -396,7 +391,7 @@ export const thirdDivSx = {
     backgroundRepeat: "no-repeat",
     "@media (max-width: 480px)": {
       backgroundSize: "cover",
-      height: "105vh",
+      height: "205vw",
     },
   },
   container: {
@@ -419,7 +414,7 @@ export const thirdDivSx = {
       mb: "2vw",
       "@media (max-width: 480px)": {
         width: "96%",
-        my: "5vh",
+        my: "8vw",
         ml: "2vw",
         mr: "2vw",
       },
