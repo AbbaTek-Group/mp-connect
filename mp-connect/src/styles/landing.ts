@@ -195,7 +195,7 @@ export const secondDivSx = {
   zIndex: "4",
   "@media (max-width: 480px)": {
     backgroundPositionY: "15.5vw",
-    height: "400vw",
+    height: "420vw",
   },
   container: {
     display: "flex",
@@ -221,7 +221,7 @@ export const secondDivSx = {
     "@media (max-width: 480px)": {
       ml: "0vw",
       mr: "0vw",
-      mt: "8.5vw",
+      mt: "13.5vw",
       height: "auto",
       width: "81vw",
       flexDirection: "column",
@@ -238,7 +238,7 @@ export const secondDivSx = {
       "@media (max-width: 480px)": {
         height: "40vw",
         width: "40vw",
-        mb: "7vw",
+        mb: "8.5vw",
         backgroundPosition: "0vw",
         backgroundSize: "cover",
       },
@@ -327,7 +327,7 @@ export const secondDivSx = {
       mb: "2vw",
       filter: "drop-shadow(0px 0px 16px rgb(0 0 0 / 0.08))",
       "@media (max-width: 480px)": {
-        fontSize: "13.5vw",
+        fontSize: "15.5vw",
         my: "5vw",
       },
     },
@@ -352,7 +352,7 @@ export const secondDivSx = {
         mt: "3vw",
         textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
         "@media (max-width: 480px)": {
-          fontSize: "7.5vw",
+          fontSize: "6.5vw",
           mt: "6vw",
           mb: "3vw",
         },
@@ -391,7 +391,7 @@ export const thirdDivSx = {
     backgroundRepeat: "no-repeat",
     "@media (max-width: 480px)": {
       backgroundSize: "cover",
-      height: "205vw",
+      height: "230vw",
     },
   },
   container: {
@@ -517,6 +517,7 @@ export const thirdDivSx = {
       color: palette.black,
       float: "left",
       "@media (max-width: 480px)": {
+        mt: "8vw",
         fontSize: "5.5vw",
         float: "none",
       },

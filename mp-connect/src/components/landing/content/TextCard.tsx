@@ -112,7 +112,7 @@ export const TextCard = ({ id }: TextCardProps) => {
           ml: id === "top" ? "2vw" : "44.5vw",
           "@media (max-width: 480px)": {
             width: id === "top" ? "75.75vw" : "50vw",
-            ml: id === "top" ? "3vw" : "33vw",
+            ml: id === "top" ? "3vw" : "43vw",
           },
         }}
       >
