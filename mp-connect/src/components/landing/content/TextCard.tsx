@@ -32,11 +32,19 @@ export const TextCard = ({ id }: TextCardProps) => {
     if (id === "top") {
       return (
         <Box>
-          Physical characterization of microplastics isn't easy—we get that.
-          <br /> Our standalone web application can help you process, analyze,
-          and share
-          <br /> your microplastics data without worrying about the nuances of
-          <br /> microplastics characterization.
+          <Box
+            sx={{
+              "@media (max-width: 480px)": {
+                display: "none",
+              },
+            }}
+          >
+            Physical characterization of microplastics isn't easy—we get that.
+            <br /> Our standalone web application can help you process, analyze,
+            and share
+            <br /> your microplastics data without worrying about the nuances of
+            <br /> microplastics characterization.
+          </Box>
           <Box sx={landing.thirdDivSx.textCard.body.bullets}>
             <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>Reduce identification and characterization error</>
@@ -58,9 +66,18 @@ export const TextCard = ({ id }: TextCardProps) => {
     } else {
       return (
         <Box>
-          Time is money. Manual analysis of particles is laborious, error-prone,
-          <br />
-          and most importantly—boring!
+          <Box
+            sx={{
+              "@media (max-width: 480px)": {
+                display: "none",
+              },
+            }}
+          >
+            Time is money. Manual analysis of particles is laborious,
+            error-prone,
+            <br />
+            and most importantly—boring!
+          </Box>
           <Box sx={landing.thirdDivSx.textCard.body.bullets}>
             <CheckIcon sx={landing.thirdDivSx.textCard.body.checks} />
             <>
@@ -93,6 +110,10 @@ export const TextCard = ({ id }: TextCardProps) => {
           ...landing.thirdDivSx.textCard.title,
           width: id === "top" ? "47.75vw" : "24.5vw",
           ml: id === "top" ? "2vw" : "44.5vw",
+          "@media (max-width: 480px)": {
+            width: id === "top" ? "75.75vw" : "50vw",
+            ml: id === "top" ? "3vw" : "33vw",
+          },
         }}
       >
         <Box sx={landing.thirdDivSx.textCard.title.text}>{titleText()}</Box>
@@ -102,6 +123,10 @@ export const TextCard = ({ id }: TextCardProps) => {
           sx={{
             ...landing.thirdDivSx.textCard.subTitle.text,
             ml: id === "top" ? null : "25.7vw",
+            "@media (max-width: 480px)": {
+              fontSize: "4.5vw",
+              ml: id === "top" ? null : "13vw",
+            },
           }}
         >
           {subTitleText()}

@@ -22,6 +22,9 @@ export const linkBarSx = {
   width: "100vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "8",
+  "@media (max-width: 480px)": {
+    display: "none",
+  },
 };
 
 export const linkBarContentSx = {
@@ -52,6 +55,9 @@ export const navBarSx = {
   width: "100vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "7",
+  "@media (max-width: 480px)": {
+    display: "none",
+  },
 };
 
 export const navBarContentSx = {
@@ -118,12 +124,23 @@ export const heroDivSx = {
   height: "47.6vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "5",
+  "@media (max-width: 480px)": {
+    backgroundColor: palette.trueWhite,
+    backgroundSize: "cover",
+    backgroundPositionY: "30vw",
+    backgroundPositionX: "0vw",
+    height: "100vh",
+  },
   container: {
     display: "flex",
     flexDirection: "row",
     justifyContent: "flex-end",
     ml: "7.3vw",
     mr: "7.3vw",
+    "@media (max-width: 480px)": {
+      ml: "none",
+      mr: "none",
+    },
   },
   textBox: {
     display: "flex",
@@ -135,6 +152,16 @@ export const heroDivSx = {
     mt: "10.5vw",
     mr: "32vw",
     zIndex: "7",
+    "@media (max-width: 480px)": {
+      position: "relative",
+      textAlign: "center",
+      fontWeight: font.fontWeight.extraBold,
+      fontSize: "12.5vw",
+      lineHeight: "12.5vw",
+      mt: "40vw",
+      ml: "0vw",
+      mr: "0vw",
+    },
   },
   button: {
     fontFamily: font.fontFamily,
@@ -146,6 +173,11 @@ export const heroDivSx = {
     borderRadius: "5px",
     width: "16.5vw",
     boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+    "@media (max-width: 480px)": {
+      mt: "5vw",
+      fontSize: "9vw",
+      width: "auto",
+    },
     a: {
       color: palette.parchment,
       textDecoration: "none",
@@ -166,6 +198,10 @@ export const secondDivSx = {
   height: "76.16vw",
   boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
   zIndex: "4",
+  "@media (max-width: 480px)": {
+    backgroundPositionY: "15.5vw",
+    height: "200vh",
+  },
   container: {
     display: "flex",
     flexDirection: "column",
@@ -173,6 +209,10 @@ export const secondDivSx = {
     alignItems: "center",
     ml: "7.3vw",
     mr: "7.3vw",
+    "@media (max-width: 480px)": {
+      ml: "0vw",
+      mr: "0vw",
+    },
   },
   globeDiv: {
     display: "flex",
@@ -183,6 +223,15 @@ export const secondDivSx = {
     width: "81vw",
     mt: "12vw",
     mb: "10vw",
+    "@media (max-width: 480px)": {
+      ml: "0vw",
+      mr: "0vw",
+      mt: "4.5vh",
+      height: "auto",
+      width: "81vw",
+      flexDirection: "column",
+      justifyContent: "center",
+    },
     imageBox: {
       mt: "1.5vw",
       backgroundPosition: "0vw -0.5vw",
@@ -191,16 +240,31 @@ export const secondDivSx = {
       opacity: "0.4",
       height: "17.6vw",
       width: "23%",
+      "@media (max-width: 480px)": {
+        height: "40vw",
+        width: "40vw",
+        mb: "3.5vh",
+        backgroundPosition: "0vw",
+        backgroundSize: "cover",
+      },
     },
     textBox: {
       height: "90%",
       width: "75.15%",
+      "@media (max-width: 480px)": {
+        height: "100%",
+        width: "100%",
+      },
       title: {
         fontFamily: font.fontFamily,
         fontWeight: font.fontWeight.bold,
         fontSize: "3.8vw",
         color: palette.parchment,
         textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+        "@media (max-width: 480px)": {
+          fontSize: "9vw",
+          textAlign: "center",
+        },
         "b, strong": {
           color: palette.mpTeal,
         },
@@ -211,6 +275,13 @@ export const secondDivSx = {
         fontSize: "1.9vw",
         color: palette.parchment,
         mr: "9vw",
+        "@media (max-width: 480px)": {
+          mr: "none",
+          textAlign: "center",
+          fontSize: "5vw",
+          width: "100%",
+          mt: "2.5vh",
+        },
         "b, strong": {
           color: palette.mpTeal,
         },
@@ -223,12 +294,25 @@ export const secondDivSx = {
     justifyContent: "space-between",
     height: "33.3vw",
     width: "100%",
+    "@media (max-width: 480px)": {
+      justifyContent: "center",
+      alignItems: "center",
+      flexDirection: "column",
+      width: "81%",
+      height: "100%",
+    },
     rowFlexbox: {
       display: "flex",
       flexDirection: "row",
       justifyContent: "space-between",
       width: "100%",
       height: "auto",
+      "@media (max-width: 480px)": {
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+        mt: "3.5vh",
+      },
     },
   },
   iconBox: {
@@ -238,12 +322,19 @@ export const secondDivSx = {
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
+      "@media (max-width: 480px)": {
+        mb: "3.5vh",
+      },
     },
     icon: {
       color: palette.white,
       fontSize: "7.5vw",
       mb: "2vw",
       filter: "drop-shadow(0px 0px 16px rgb(0 0 0 / 0.08))",
+      "@media (max-width: 480px)": {
+        fontSize: "7.5vh",
+        mb: "2.5vh",
+      },
     },
     textBox: {
       display: "flex",
@@ -254,6 +345,10 @@ export const secondDivSx = {
       backgroundColor: palette.black,
       borderRadius: "5px",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+      "@media (max-width: 480px)": {
+        width: "100%",
+        height: "100%",
+      },
       title: {
         fontFamily: font.fontFamily,
         fontWeight: font.fontWeight.bold,
@@ -261,6 +356,11 @@ export const secondDivSx = {
         color: palette.mpTeal,
         mt: "3vw",
         textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
+        "@media (max-width: 480px)": {
+          fontSize: "7.5vw",
+          mt: "3.5vh",
+          mb: "1.5vh",
+        },
       },
       body: {
         color: palette.parchment,
@@ -270,6 +370,12 @@ export const secondDivSx = {
         textAlign: "center",
         mt: "2vw",
         marginX: "2.8vw",
+        "@media (max-width: 480px)": {
+          fontSize: "5.5vw",
+          marginX: "none",
+          mt: "none",
+          mb: "3.5vh",
+        },
       },
     },
   },
@@ -288,6 +394,10 @@ export const thirdDivSx = {
     backgroundSize: "100vw 50vw",
     backgroundPositionY: "50vw",
     backgroundRepeat: "no-repeat",
+    "@media (max-width: 480px)": {
+      backgroundSize: "cover",
+      height: "105vh",
+    },
   },
   container: {
     display: "flex",
@@ -296,28 +406,24 @@ export const thirdDivSx = {
     height: "100%",
     ml: "7.3vw",
     mr: "7.3vw",
+    "@media (max-width: 480px)": {
+      justifyContent: "center",
+      alignItems: "center",
+      mt: "0vw",
+      ml: "0vw",
+      mr: "0vw",
+    },
     textCardContainer: {
       width: "71vw",
       mt: "6vw",
       mb: "2vw",
+      "@media (max-width: 480px)": {
+        width: "96%",
+        my: "5vh",
+        ml: "2vw",
+        mr: "2vw",
+      },
     },
-  },
-  topIcon: {
-    position: "absolute",
-    ml: "49vw",
-    mt: "18.25vw",
-    transform: "rotate(1deg)",
-    color: palette.grey,
-    fontSize: "15.5vw",
-    filter: "drop-shadow(0px 0px 16px rgb(0 0 0 / 0.04))",
-  },
-  bottomIcon: {
-    position: "absolute",
-    ml: "64vw",
-    mt: "54vw",
-    color: palette.grey,
-    fontSize: "15.5vw",
-    filter: "drop-shadow(0px 0px 16px rgb(0 0 0 / 0.04))",
   },
   textCard: {
     title: {
@@ -327,12 +433,16 @@ export const thirdDivSx = {
       mb: "-0.1vw",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",
       zIndex: "3",
+      "@media (max-width: 480px)": {},
       text: {
         fontFamily: font.fontFamily,
         fontWeight: font.fontWeight.bold,
         fontSize: "2.66vw",
         color: palette.black,
         mx: "2vw",
+        "@media (max-width: 480px)": {
+          fontSize: "6vw",
+        },
       },
     },
     subTitle: {
@@ -348,6 +458,9 @@ export const thirdDivSx = {
         fontWeight: font.fontWeight.bold,
         fontSize: "2.2vw",
         color: palette.black,
+        "@media (max-width: 480px)": {
+          fontSize: "4.5vw",
+        },
       },
       "b, strong": {
         color: palette.mpTeal,
@@ -366,17 +479,28 @@ export const thirdDivSx = {
         py: "1vw",
         px: "2vw",
         color: palette.black,
+        "@media (max-width: 480px)": {
+          width: "90%",
+        },
       },
       bullets: {
         fontSize: "1.7vw",
         ml: "4vw",
         mt: "1vw",
+        "@media (max-width: 480px)": {
+          fontSize: "4.2vw",
+          ml: "2vw",
+          width: "100%",
+        },
       },
       checks: {
         fontSize: "1.85vw",
         color: palette.slate,
         mb: "-0.35vw",
         mr: "0.5vw",
+        "@media (max-width: 480px)": {
+          fontSize: "4.5vw",
+        },
       },
       "b, strong": {
         color: palette.black,
@@ -386,6 +510,10 @@ export const thirdDivSx = {
   bottom: {
     mb: "6.5vw",
     mx: "1vw",
+    "@media (max-width: 480px)": {
+      mx: "2vw",
+      mb: "none",
+    },
     text: {
       mt: "4vw",
       fontFamily: font.fontFamily,
@@ -393,6 +521,10 @@ export const thirdDivSx = {
       fontSize: "3.8vw",
       color: palette.black,
       float: "left",
+      "@media (max-width: 480px)": {
+        fontSize: "5.5vw",
+        float: "none",
+      },
     },
     button: {
       backgroundColor: palette.mpBlue,
@@ -405,6 +537,9 @@ export const thirdDivSx = {
       float: "right",
       boxShadow: "0px 0px 16px rgb(0 0 0 / 0.08)",
       textShadow: "0px 0px 16px rgb(0 0 0 / 0.08)",
+      "@media (max-width: 480px)": {
+        fontSize: "7vw",
+      },
       a: {
         color: palette.white,
         textDecoration: "none",
@@ -423,6 +558,9 @@ export const footerDivSx = {
   height: "27vw",
   zIndex: "2",
   break: { backgroundColor: palette.grey, height: "1px", width: "100%" },
+  "@media (max-width: 480px)": {
+    height: "50vw",
+  },
   container: {
     ml: "7.3vw",
     mr: "7.3vw",
@@ -440,11 +578,17 @@ export const footerDivSx = {
     color: palette.black,
     fontSize: "1.5vw",
     mb: "1vw",
+    "@media (max-width: 480px)": {
+      fontSize: "3.5vw",
+    },
   },
   text: {
     fontFamily: font.fontFamily,
     fontWeight: font.fontWeight.medium,
     fontSize: "1.35vw",
+    "@media (max-width: 480px)": {
+      fontSize: "2.5vw",
+    },
     a: {
       color: palette.slate,
       textDecoration: "none",
@@ -456,6 +600,9 @@ export const footerDivSx = {
     color: palette.slate,
     mt: "9.7vw",
     fontSize: "1.25vw",
+    "@media (max-width: 480px)": {
+      fontSize: "2vw",
+    },
     textAlign: "center",
     "b, strong": {
       color: palette.mpTeal,
