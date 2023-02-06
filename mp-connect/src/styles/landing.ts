@@ -3,6 +3,11 @@
 import { palette } from "./palette";
 import { font } from "./font";
 
+// mobile
+// "@media (max-width: 480px)": {
+//   backgroundColor: "pink",
+// },
+
 export const homeSx = {
   divContainer: {
     display: "flex",
@@ -70,11 +75,14 @@ export const navBarContentSx = {
     backgroundColor: palette.parchment,
     fontSize: "1.1vw",
     borderRadius: "5px",
-    color: palette.black,
     paddingY: "0.25vw",
     width: "7vw",
     boxShadow: "none",
     mr: "1.5vw",
+    a: {
+      color: palette.black,
+      textDecoration: "none",
+    },
     "&:hover": {
       backgroundColor: palette.trueWhite,
       textShadow: "0px 0px 16px rgb(0 0 0 / 0.16)",

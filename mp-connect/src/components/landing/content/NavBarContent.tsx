@@ -1,6 +1,5 @@
-import { Link } from "react-router-dom";
 import { Box, Button } from "@mui/material";
-import { landing, palette } from "../../../styles";
+import { landing } from "../../../styles";
 import logo from "./img/mpconnectlogo.svg";
 
 export const NavBarContent = () => {
@@ -15,12 +14,9 @@ export const NavBarContent = () => {
       </Box>
       <Box>
         <Button sx={landing.navBarContentSx.loginButton} variant="contained">
-          <Link
-            style={{ textDecoration: "none", color: palette.black }}
-            to="/login"
-          >
-            Login
-          </Link>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScwDMjxhHXnxqpLKR9SwJOBPheWpYvjnzbp-g8WCtjlBW9UCw/viewform">
+            Contact
+          </a>
         </Button>
         <Button sx={landing.navBarContentSx.registerButton} variant="contained">
           <a href="https://abbatekgroup.us12.list-manage.com/subscribe?u=e7a7fdd7e7a0cd0d46a303521&id=7383ff5a34">
