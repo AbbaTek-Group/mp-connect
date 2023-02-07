@@ -11,7 +11,7 @@ root.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/" element={<Login />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
   </BrowserRouter>
 );
