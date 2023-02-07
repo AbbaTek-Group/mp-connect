@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Login } from "./components";
+import { Home, Login, Register } from "./components";
 import "./styles/global.css";
 
 const root = ReactDOM.createRoot(
@@ -12,6 +12,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
     </Routes>
   </BrowserRouter>
 );
