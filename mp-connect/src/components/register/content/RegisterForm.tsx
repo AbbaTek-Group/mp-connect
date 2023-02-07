@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import { Box, Button, TextField } from "@mui/material";
+import { registerHandler } from "../../../handlers";
 import { RegisterProps } from "../../../types";
 
 export const RegisterForm = () => {
@@ -8,10 +9,6 @@ export const RegisterForm = () => {
   const emailField = useRef<HTMLInputElement>();
   const passwordField = useRef<HTMLInputElement>();
   const confirmPasswordField = useRef<HTMLInputElement>();
-
-  const onRegisterClick = (user: RegisterProps) => {
-    console.log(user);
-  };
 
   return (
     <Box sx={{ display: "flex", flexDirection: "column" }}>
@@ -41,7 +38,7 @@ export const RegisterForm = () => {
                   passwordField.current!.value ===
                   confirmPasswordField.current!.value
                 ) {
-                  onRegisterClick({
+                  registerHandler({
                     email: emailField.current!.value,
                     password: passwordField.current!.value,
                   } as RegisterProps);
