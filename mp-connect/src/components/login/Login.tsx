@@ -1,5 +1,5 @@
 import { Box, ThemeProvider } from "@mui/material";
-import { LoginContent } from "./content/img/LoginContent";
+import { LoginContent } from "./content/LoginContent";
 import { login, appTheme } from "../../styles";
 
 export const Login = () => {

@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef } from "react";
+import { useRef } from "react";
 import { Box, Button, TextField } from "@mui/material";
-import { loginHandler } from "../../../../handlers";
-import { login } from "../../../../styles";
-import { LoginProps } from "../../../../types";
+import { loginHandler } from "../../../handlers";
+import { login } from "../../../styles";
+import { LoginProps } from "../../../types";
 
 export const LoginForm = () => {
   const emailField = useRef<HTMLInputElement>();

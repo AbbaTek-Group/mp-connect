@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import { LoginForm } from "./LoginForm";
-import { login } from "../../../../styles";
-import graphic from "../img/graphic.png";
+import { login } from "../../../styles";
+import graphic from "./img/graphic.png";
 
 export const LoginContent = () => {
   return (
