@@ -1,18 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 import { Box, Button, TextField } from "@mui/material";
+import { loginHandler } from "../../../../handlers";
 import { login } from "../../../../styles";
 import { LoginProps } from "../../../../types";
 
 export const LoginForm = () => {
-  const [loginFormData, setLoginFormData] = useState<LoginProps>();
   const emailField = useRef<HTMLInputElement>();
   const passwordField = useRef<HTMLInputElement>();
-
-  useEffect(() => {
-    if (loginFormData) {
-      console.log(loginFormData);
-    }
-  }, [loginFormData]);
 
   return (
     <Box>
@@ -33,10 +27,10 @@ export const LoginForm = () => {
           sx={login.loginSx.formDiv.signInButton}
           onClick={() => {
             if (emailField.current!.value && passwordField.current!.value) {
-              setLoginFormData({
+              loginHandler({
                 email: emailField.current!.value,
                 password: passwordField.current!.value,
-              });
+              } as LoginProps);
             }
           }}
         >
