@@ -7,7 +7,7 @@ export async function loginHandler(user: LoginProps) {
   axios
     .put(
       `${route}`,
-      { loginData: user },
+      { userLoginData: user },
       {
         withCredentials: true,
       }
